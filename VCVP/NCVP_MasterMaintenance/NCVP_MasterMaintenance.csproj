@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A9D840AD-DED0-47E5-8830-438E1CDC9873}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Com.Nidec.Mes.VCVP.NCVP_MasterMaintenance</RootNamespace>
+    <AssemblyName>NCVP_MasterMaintenance</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Framework">
+      <HintPath>..\..\..\fw\NidecMES\Dll\Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="GlobalMasterMaintenance">
+      <HintPath>..\..\..\fw\NidecMES\Dll\GlobalMasterMaintenance.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.7.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\fw\NidecMES\Dll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=3.1.9.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cbm\CauseMasterCbm\AddCauseCbm.cs" />
+    <Compile Include="Cbm\CauseMasterCbm\DeleteCauseCbm.cs" />
+    <Compile Include="Cbm\CauseMasterCbm\GetCauseCbm.cs" />
+    <Compile Include="Cbm\DrawMasterCbm\AddDrawCbm.cs" />
+    <Compile Include="Cbm\DrawMasterCbm\CheckDrawCbm.cs" />
+    <Compile Include="Cbm\DrawMasterCbm\DeleteDrawCbm.cs" />
+    <Compile Include="Cbm\DrawMasterCbm\GetDrawCbm.cs" />
+    <Compile Include="Cbm\DrawMasterCbm\UpdateDrawCbm.cs" />
+    <Compile Include="Cbm\JigCauseMasterCbm\AddJigCauseCbm.cs" />
+    <Compile Include="Cbm\JigCauseMasterCbm\CheckJigCauseCbm.cs" />
+    <Compile Include="Cbm\JigCauseMasterCbm\DeleteJigCauseCbm.cs" />
+    <Compile Include="Cbm\JigCauseMasterCbm\GetJigCauseCbm.cs" />
+    <Compile Include="Cbm\JigCauseMasterCbm\UpdateJigCauseCbm.cs" />
+    <Compile Include="Cbm\JigResponseMasterCbm\AddJigResponseCbm.cs" />
+    <Compile Include="Cbm\JigResponseMasterCbm\CheckJigResponseCbm.cs" />
+    <Compile Include="Cbm\JigResponseMasterCbm\DeleteJigResponseCbm.cs" />
+    <Compile Include="Cbm\JigResponseMasterCbm\GetJigResponseCbm.cs" />
+    <Compile Include="Cbm\JigResponseMasterCbm\UpdateJigResponseCbm.cs" />
+    <Compile Include="Cbm\ModelLineMasterCbm\AddModelLineCbm.cs" />
+    <Compile Include="Cbm\ModelLineMasterCbm\DeleteModelLineCbm.cs" />
+    <Compile Include="Cbm\ModelLineMasterCbm\GetModelLineCbm.cs" />
+    <Compile Include="Cbm\ModelMasterCbm\AddModelCbm.cs" />
+    <Compile Include="Cbm\ModelMasterCbm\CheckModelCbm.cs" />
+    <Compile Include="Cbm\ModelMasterCbm\DeleteModelCbm.cs" />
+    <Compile Include="Cbm\ModelMasterCbm\GetModelCbm.cs" />
+    <Compile Include="Cbm\ModelMasterCbm\UpdateModelCbm.cs" />
+    <Compile Include="Cbm\ModelProcessMasterCbm\AddModelProcessCbm.cs" />
+    <Compile Include="Cbm\ModelProcessMasterCbm\DeleteModelProcessCbm.cs" />
+    <Compile Include="Cbm\ModelProcessMasterCbm\GetModelProcessCbm.cs" />
+    <Compile Include="Cbm\ResponseMachineCbm\AddResponseMachineCbm.cs" />
+    <Compile Include="Cbm\ResponseMachineCbm\DeleteResponseMachineCbm.cs" />
+    <Compile Include="Cbm\ResponseMachineCbm\GetResponseMachineCbm.cs" />
+    <Compile Include="Dao\DrawMasterDao\AddDrawDao.cs" />
+    <Compile Include="Dao\DrawMasterDao\CheckDrawDao.cs" />
+    <Compile Include="Dao\DrawMasterDao\DeleteDrawDao.cs" />
+    <Compile Include="Dao\DrawMasterDao\GetDrawDao.cs" />
+    <Compile Include="Dao\DrawMasterDao\UpdateDrawDao.cs" />
+    <Compile Include="Dao\JigResponseMasterDao\AddJigResponseDao.cs" />
+    <Compile Include="Dao\JigResponseMasterDao\CheckJigResponseDao.cs" />
+    <Compile Include="Dao\JigResponseMasterDao\DeleteJigResponseDao.cs" />
+    <Compile Include="Dao\JigResponseMasterDao\GetJigResponseDao.cs" />
+    <Compile Include="Dao\JigResponseMasterDao\UpdateJigResponseDao.cs" />
+    <Compile Include="Dao\ModelProcessMasterDao\AddModelProcessDao.cs" />
+    <Compile Include="Dao\ModelProcessMasterDao\DeleteModelProcessDao.cs" />
+    <Compile Include="Dao\ModelProcessMasterDao\GetModelProcessDao.cs" />
+    <Compile Include="Dao\ResponseMachineDao\AddResponseMachineDao.cs" />
+    <Compile Include="Dao\ResponseMachineDao\DeleteResponseMachineDao.cs" />
+    <Compile Include="Dao\ResponseMachineDao\GetResponseMachineDao.cs" />
+    <Compile Include="Dao\CauseMasterDao\AddCauseDao.cs" />
+    <Compile Include="Dao\CauseMasterDao\DeleteCauseDao.cs" />
+    <Compile Include="Dao\CauseMasterDao\GetCauseDao.cs" />
+    <Compile Include="Dao\JigCauseMasterDao\AddJigCauseDao.cs" />
+    <Compile Include="Dao\JigCauseMasterDao\CheckJigCauseDao.cs" />
+    <Compile Include="Dao\JigCauseMasterDao\DeleteJigCauseDao.cs" />
+    <Compile Include="Dao\JigCauseMasterDao\GetJigCauseDao.cs" />
+    <Compile Include="Dao\JigCauseMasterDao\UpdateJigCauseDao.cs" />
+    <Compile Include="Dao\ModelLineMasterDao\AddModelLineDao.cs" />
+    <Compile Include="Dao\ModelLineMasterDao\DeleteModelLineDao.cs" />
+    <Compile Include="Dao\ModelLineMasterDao\GetModelLineDao.cs" />
+    <Compile Include="Dao\ModelMasterDao\AddModelDao.cs" />
+    <Compile Include="Dao\ModelMasterDao\CheckModelDao.cs" />
+    <Compile Include="Dao\ModelMasterDao\DeleteModelDao.cs" />
+    <Compile Include="Dao\ModelMasterDao\GetModelDao.cs" />
+    <Compile Include="Dao\ModelMasterDao\UpdateModelDao.cs" />
+    <Compile Include="Form\CauseMaster\CauseMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\CauseMaster\CauseMasterForm.Designer.cs">
+      <DependentUpon>CauseMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\DrawMaster\AddDrawMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\DrawMaster\AddDrawMasterForm.Designer.cs">
+      <DependentUpon>AddDrawMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\DrawMaster\DrawMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\DrawMaster\DrawMasterForm.Designer.cs">
+      <DependentUpon>DrawMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormCommonNCVP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormCommonNCVP.Designer.cs">
+      <DependentUpon>FormCommonNCVP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\JigCauseMaster\AddJigCauseMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\JigCauseMaster\AddJigCauseMasterForm.Designer.cs">
+      <DependentUpon>AddJigCauseMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\JigCauseMaster\JigCauseMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\JigCauseMaster\JigCauseMasterForm.Designer.cs">
+      <DependentUpon>JigCauseMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\JigResponseMaster\AddJigResponseMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\JigResponseMaster\AddJigResponseMasterForm.Designer.cs">
+      <DependentUpon>AddJigResponseMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\JigResponseMaster\JigResponseMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\JigResponseMaster\JigResponseMasterForm.Designer.cs">
+      <DependentUpon>JigResponseMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ModelLineMater\ModelLineMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ModelLineMater\ModelLineMasterForm.Designer.cs">
+      <DependentUpon>ModelLineMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ModelMaster\AddModelMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ModelMaster\AddModelMasterForm.Designer.cs">
+      <DependentUpon>AddModelMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ModelMaster\ModelMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ModelMaster\ModelMasterForm.Designer.cs">
+      <DependentUpon>ModelMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ModelProcessMaster\ModelProcessMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ModelProcessMaster\ModelProcessMasterForm.Designer.cs">
+      <DependentUpon>ModelProcessMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ResponseMachine\ResponseMachineMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ResponseMachine\ResponseMachineMasterForm.Designer.cs">
+      <DependentUpon>ResponseMachineMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vo\JigResponseVo.cs" />
+    <Compile Include="Vo\DrawVo.cs" />
+    <Compile Include="Vo\DrawProcessVo.cs" />
+    <Compile Include="Vo\ModelProcessVo.cs" />
+    <Compile Include="Vo\ResponseMachineVo.cs" />
+    <Compile Include="Vo\CauseVo.cs" />
+    <Compile Include="Vo\ModelLineVo.cs" />
+    <Compile Include="Vo\JigCauseVo.cs" />
+    <Compile Include="Vo\ModelVo.cs" />
+    <EmbeddedResource Include="Form\CauseMaster\CauseMasterForm.resx">
+      <DependentUpon>CauseMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\CauseMaster\CauseMasterForm.zh-Hans.resx">
+      <DependentUpon>CauseMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\DrawMaster\AddDrawMasterForm.resx">
+      <DependentUpon>AddDrawMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\DrawMaster\AddDrawMasterForm.zh-Hans.resx">
+      <DependentUpon>AddDrawMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\DrawMaster\DrawMasterForm.resx">
+      <DependentUpon>DrawMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\DrawMaster\DrawMasterForm.zh-Hans.resx">
+      <DependentUpon>DrawMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormCommonNCVP.resx">
+      <DependentUpon>FormCommonNCVP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\JigCauseMaster\AddJigCauseMasterForm.resx">
+      <DependentUpon>AddJigCauseMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\JigCauseMaster\AddJigCauseMasterForm.zh-Hans.resx">
+      <DependentUpon>AddJigCauseMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\JigCauseMaster\JigCauseMasterForm.resx">
+      <DependentUpon>JigCauseMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\JigCauseMaster\JigCauseMasterForm.zh-Hans.resx">
+      <DependentUpon>JigCauseMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\JigResponseMaster\AddJigResponseMasterForm.resx">
+      <DependentUpon>AddJigResponseMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\JigResponseMaster\JigResponseMasterForm.resx">
+      <DependentUpon>JigResponseMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ModelLineMater\ModelLineMasterForm.resx">
+      <DependentUpon>ModelLineMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ModelLineMater\ModelLineMasterForm.zh-Hans.resx">
+      <DependentUpon>ModelLineMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ModelMaster\AddModelMasterForm.resx">
+      <DependentUpon>AddModelMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ModelMaster\AddModelMasterForm.zh-Hans.resx">
+      <DependentUpon>AddModelMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ModelMaster\ModelMasterForm.resx">
+      <DependentUpon>ModelMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ModelMaster\ModelMasterForm.zh-Hans.resx">
+      <DependentUpon>ModelMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ModelProcessMaster\ModelProcessMasterForm.resx">
+      <DependentUpon>ModelProcessMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ModelProcessMaster\ModelProcessMasterForm.zh-Hans.resx">
+      <DependentUpon>ModelProcessMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ResponseMachine\ResponseMachineMasterForm.resx">
+      <DependentUpon>ResponseMachineMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

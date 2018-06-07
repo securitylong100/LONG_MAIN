@@ -1889,3 +1889,21 @@ System.Net.Sockets.SocketException (0x80004005): An established connection was a
 2018-06-02 09:35:32,120 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-06-02 09:35:32
 2018-06-02 09:35:38,300 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-06-02 09:35:38
 2018-06-02 09:36:57,918 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-06-02 09:36:57
+2018-06-05 11:25:04,574 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-06-05 11:25:04
+2018-06-05 11:25:19,716 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-06-05 11:25:19
+2018-06-05 11:25:50,240 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-06-05 11:25:50
+2018-06-05 11:26:22,151 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-06-05 11:26:22
+2018-06-05 16:50:53,061 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-06-05 16:50:53
+2018-06-05 16:52:25,296 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-06-05 16:52:25
+2018-06-06 08:59:20,633 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-06-06 08:59:20
+2018-06-06 09:03:39,814 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.PersonForm] [mmcc00004]Do you want to delete : [2018-05-31 07:38:22] ?
+2018-06-06 09:03:41,850 WARN  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.PersonForm] [mmci00003]B?n không có quy?n xóa dòng này ! 
+2018-06-06 09:03:58,882 WARN  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.PersonForm] [mmci00003]B?n không có quy?n ch?nh s?a dòng này ! 
+2018-06-06 09:04:37,932 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.PersonForm] [mmce00001]Record is already registered
+2018-06-06 09:04:58,707 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.PersonForm] [mmce00001]Record is already registered
+2018-06-06 09:05:18,353 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-06-06 09:05:18
+2018-06-06 09:17:50,684 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-06-06 09:17:50
+2018-06-06 09:18:31,793 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.PersonForm] [mmce00001]Record is already registered
+2018-06-06 09:18:35,040 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.PersonForm] [mmcc00004]Do you want to delete : [2018-06-06 09:03:32] ?
+2018-06-06 09:18:36,257 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.PersonForm] [mmci00003]Record has been deleted successfully.
+2018-06-06 09:19:09,748 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-06-06 09:19:09

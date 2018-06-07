@@ -33,6 +33,4 @@ D:\NIDEC MES\vcvp\VCVP\VCVP\obj\Debug\NCVP Management System.exe
 D:\NIDEC MES\vcvp\VCVP\VCVP\obj\Debug\NCVP Management System.pdb
 D:\NIDEC MES\vcvp\VCVP\VCVP\bin\Debug\vi\MachineMaintenance.resources.dll
 D:\NIDEC MES\vcvp\VCVP\VCVP\bin\Debug\vi-VN\MachineMaintenance.resources.dll
-D:\NIDEC MES\LONG\VCVP\VCVP\bin\Debug\NCVP Management System.exe.config
-D:\NIDEC MES\LONG\VCVP\VCVP\obj\Debug\NCVP Management System.exe
-D:\NIDEC MES\LONG\VCVP\VCVP\obj\Debug\NCVP Management System.pdb
+D:\NIDEC MES\vcvp\VCVP\VCVP\obj\Debug\VCVP.csprojResolveAssemblyReference.cache

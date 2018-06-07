@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="NCVP Management System.exe" version="1.1.0.10" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="NCVP Management System.exe" version="1.1.0.11" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="FormIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -211,26 +211,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MachineMaintenance.dll" size="1607680">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MachineMaintenance.dll" size="1696256">
       <assemblyIdentity name="MachineMaintenance" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>oyVo+XsWxKaPUEBcvSBSrhsY+ODo71UBn3lWPexSdCQ=</dsig:DigestValue>
+        <dsig:DigestValue>uYHsi1bWeJWC5GCOIb6+hmB/DIbGOWLpUrTDmjF5kzg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="vi\MachineMaintenance.resources.dll" size="69632">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="vi\MachineMaintenance.resources.dll" size="75264">
       <assemblyIdentity name="MachineMaintenance.resources" version="1.0.0.0" language="vi" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>jPeu747TH4o7G6nooP95qZ+unzhJidZTtQQkcsAsNg4=</dsig:DigestValue>
+        <dsig:DigestValue>C4kWaJbXz1UUMhCwN2+UAaaHbtgIF3MZJe7vOlZm2g0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -242,7 +242,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7pA3Ber9finIkpJ0T0vG/4R1HxsojP/YaUBqIjsSYDU=</dsig:DigestValue>
+        <dsig:DigestValue>TQvDoS9ZsXdmQ4V4jiHNxp/DMjGQ69zdOEvpxVijQl0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -254,7 +254,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VvOFrbIouV7J1UjsxowrNJ8yOzuCjbaoHlxE7SOs/W0=</dsig:DigestValue>
+        <dsig:DigestValue>fF4B0tsb1C3uRFF8HbNen99mKgyxmVtbEysZVc8Zx8k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

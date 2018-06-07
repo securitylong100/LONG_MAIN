@@ -64,3 +64,4 @@ D:\NCVP\LONG_MAIN\VCVP\VCVP\bin\Debug\zh-CHS\GlobalMasterMaintenance.resources.d
 D:\NCVP\LONG_MAIN\VCVP\VCVP\bin\Debug\zh-Hans\GlobalMasterMaintenance.resources.dll
 D:\NCVP\LONG_MAIN\VCVP\VCVP\bin\Debug\vi\MachineMaintenance.resources.dll
 D:\NCVP\LONG_MAIN\VCVP\VCVP\bin\Debug\vi-VN\MachineMaintenance.resources.dll
+D:\NCVP\LONG_MAIN\VCVP\VCVP\obj\Debug\VCVP.csprojResolveAssemblyReference.cache

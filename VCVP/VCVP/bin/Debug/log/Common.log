@@ -1907,3 +1907,5 @@ System.Net.Sockets.SocketException (0x80004005): An established connection was a
 2018-06-06 09:18:35,040 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.PersonForm] [mmcc00004]Do you want to delete : [2018-06-06 09:03:32] ?
 2018-06-06 09:18:36,257 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.PersonForm] [mmci00003]Record has been deleted successfully.
 2018-06-06 09:19:09,748 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-06-06 09:19:09
+2018-06-07 20:43:25,996 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 6/7/2018 8:43:25 PM
+2018-06-07 20:43:54,819 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 6/7/2018 8:43:54 PM

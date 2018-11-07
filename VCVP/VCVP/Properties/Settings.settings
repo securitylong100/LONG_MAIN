@@ -9,7 +9,7 @@
       <Value Profile="(Default)">Com.Nidec.Mes.VCVP.FormMain</Value>
     </Setting>
     <Setting Name="CONNECTION_STRING" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Server=localhost;Port=5432;UserId=postgres;Password=12345;Database=mesdb_ncvp;;</Value>
+      <Value Profile="(Default)">Server=192.168.145.12;Port=5432;UserId=pqm;Password=mesdb;Database=mesdb;;</Value>
     </Setting>
     <Setting Name="AUTHENTIFICATE_FLAG" Type="System.String" Scope="User">
       <Value Profile="(Default)">2</Value>

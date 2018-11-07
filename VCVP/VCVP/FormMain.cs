@@ -12,6 +12,7 @@ using Com.Nidec.Mes.Framework.Login;
 using Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form;
 using Com.Nidec.Mes.Common.Basic.MachineMaintenance;
 
+
 namespace Com.Nidec.Mes.VCVP
 {
     public partial class FormMain : GlobalMasterMaintenance.FormCommonNCVP
@@ -399,6 +400,26 @@ namespace Com.Nidec.Mes.VCVP
         {
             OvenBarcodeForm oven = new OvenBarcodeForm();
             oven.ShowDialog();
+        }
+
+        private void ovenbarcode_ls12_btn_Click(object sender, EventArgs e)
+        {
+            OvenBarcodeLS12Form ovenls = new OvenBarcodeLS12Form();
+            ovenls.ShowDialog();
+
+        }
+
+        private void InvertoryTime_btn_Click(object sender, EventArgs e)
+        {
+            InvertoryTimeForm invertimeform = new InvertoryTimeForm();
+            invertimeform.ShowDialog();
+                
+        }
+
+        private void InvertoryCheck_btn_Click(object sender, EventArgs e)
+        {
+            InvertoryCheckForm invertorycheckform = new InvertoryCheckForm();
+            invertorycheckform.ShowDialog();
         }
     }
 }

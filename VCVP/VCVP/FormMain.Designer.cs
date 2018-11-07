@@ -44,10 +44,13 @@
             this.jig_repair_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.DrawRegist_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.ovenbarcode_ls12_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.ovenbarcode_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.production_controller_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.Doc_Main_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.MachineWorkingStatus_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.InvertoryCheck_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.WarehouseManagement_New_frm = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.account_equipments_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.NcvpMaster_gpb = new Com.Nidec.Mes.Framework.GroupBoxCommon();
@@ -62,6 +65,7 @@
             this.ProcessModel_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.ACC_WH = new System.Windows.Forms.TabPage();
             this.groupBoxCommon8 = new Com.Nidec.Mes.Framework.GroupBoxCommon();
+            this.InvertoryTime_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.Supplier_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.equipment_machine_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.Equipment_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
@@ -89,6 +93,8 @@
             this.ProcessWorkContType_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.response_machine_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.ProWorkCont_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.Oven_Downtime = new System.Windows.Forms.TabPage();
+            this.ovenrangetemp_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.labelCommon1 = new Com.Nidec.Mes.Framework.LabelCommon();
             this.SystemMaster_gpb = new Com.Nidec.Mes.Framework.GroupBoxCommon();
             this.PlaceMaster_lbl = new Com.Nidec.Mes.Framework.LabelCommon();
@@ -104,9 +110,6 @@
             this.factory_bt = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.language_bt = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.local_user_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.Oven_Downtime = new System.Windows.Forms.TabPage();
-            this.ovenrangetemp_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.ovenbarcode_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.Menu_gpb.SuspendLayout();
             this.groupBoxCommon7.SuspendLayout();
             this.groupBoxCommon1.SuspendLayout();
@@ -128,8 +131,8 @@
             this.groupBoxCommon4.SuspendLayout();
             this.groupBoxCommon6.SuspendLayout();
             this.groupBoxCommon5.SuspendLayout();
-            this.SystemMaster_gpb.SuspendLayout();
             this.Oven_Downtime.SuspendLayout();
+            this.SystemMaster_gpb.SuspendLayout();
             this.SuspendLayout();
             // 
             // Menu_gpb
@@ -334,6 +337,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.ovenbarcode_ls12_btn);
             this.tabPage2.Controls.Add(this.ovenbarcode_btn);
             this.tabPage2.Controls.Add(this.production_controller_btn);
             this.tabPage2.Controls.Add(this.Doc_Main_btn);
@@ -346,13 +350,41 @@
             this.tabPage2.Text = "Control Management";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // ovenbarcode_ls12_btn
+            // 
+            this.ovenbarcode_ls12_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.ovenbarcode_ls12_btn.ControlId = "cpmb015";
+            this.ovenbarcode_ls12_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.ovenbarcode_ls12_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.ovenbarcode_ls12_btn.Location = new System.Drawing.Point(27, 226);
+            this.ovenbarcode_ls12_btn.Name = "ovenbarcode_ls12_btn";
+            this.ovenbarcode_ls12_btn.Size = new System.Drawing.Size(210, 64);
+            this.ovenbarcode_ls12_btn.TabIndex = 3;
+            this.ovenbarcode_ls12_btn.Text = "Oven Barcode LS12";
+            this.ovenbarcode_ls12_btn.UseVisualStyleBackColor = false;
+            this.ovenbarcode_ls12_btn.Click += new System.EventHandler(this.ovenbarcode_ls12_btn_Click);
+            // 
+            // ovenbarcode_btn
+            // 
+            this.ovenbarcode_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.ovenbarcode_btn.ControlId = "cpmb014";
+            this.ovenbarcode_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.ovenbarcode_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.ovenbarcode_btn.Location = new System.Drawing.Point(287, 126);
+            this.ovenbarcode_btn.Name = "ovenbarcode_btn";
+            this.ovenbarcode_btn.Size = new System.Drawing.Size(210, 64);
+            this.ovenbarcode_btn.TabIndex = 2;
+            this.ovenbarcode_btn.Text = "Oven Barcode";
+            this.ovenbarcode_btn.UseVisualStyleBackColor = false;
+            this.ovenbarcode_btn.Click += new System.EventHandler(this.ovenbarcode_btn_Click);
+            // 
             // production_controller_btn
             // 
             this.production_controller_btn.BackColor = System.Drawing.SystemColors.Control;
             this.production_controller_btn.ControlId = "cpmb013";
             this.production_controller_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.production_controller_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.production_controller_btn.Location = new System.Drawing.Point(27, 135);
+            this.production_controller_btn.Location = new System.Drawing.Point(27, 126);
             this.production_controller_btn.Name = "production_controller_btn";
             this.production_controller_btn.Size = new System.Drawing.Size(210, 64);
             this.production_controller_btn.TabIndex = 1;
@@ -390,6 +422,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.InvertoryCheck_btn);
             this.tabPage3.Controls.Add(this.WarehouseManagement_New_frm);
             this.tabPage3.Controls.Add(this.account_equipments_btn);
             this.tabPage3.Location = new System.Drawing.Point(4, 24);
@@ -399,6 +432,20 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Account - Equipments";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // InvertoryCheck_btn
+            // 
+            this.InvertoryCheck_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.InvertoryCheck_btn.ControlId = "cpmb016";
+            this.InvertoryCheck_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.InvertoryCheck_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.InvertoryCheck_btn.Location = new System.Drawing.Point(38, 113);
+            this.InvertoryCheck_btn.Name = "InvertoryCheck_btn";
+            this.InvertoryCheck_btn.Size = new System.Drawing.Size(210, 64);
+            this.InvertoryCheck_btn.TabIndex = 49;
+            this.InvertoryCheck_btn.Text = "Inventory Check";
+            this.InvertoryCheck_btn.UseVisualStyleBackColor = false;
+            this.InvertoryCheck_btn.Click += new System.EventHandler(this.InvertoryCheck_btn_Click);
             // 
             // WarehouseManagement_New_frm
             // 
@@ -585,6 +632,7 @@
             // groupBoxCommon8
             // 
             this.groupBoxCommon8.ControlId = null;
+            this.groupBoxCommon8.Controls.Add(this.InvertoryTime_btn);
             this.groupBoxCommon8.Controls.Add(this.Supplier_btn);
             this.groupBoxCommon8.Controls.Add(this.equipment_machine_btn);
             this.groupBoxCommon8.Controls.Add(this.Equipment_btn);
@@ -602,6 +650,20 @@
             this.groupBoxCommon8.TabIndex = 51;
             this.groupBoxCommon8.TabStop = false;
             this.groupBoxCommon8.Text = "WareHouse";
+            // 
+            // InvertoryTime_btn
+            // 
+            this.InvertoryTime_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.InvertoryTime_btn.ControlId = "mmob028";
+            this.InvertoryTime_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.InvertoryTime_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.InvertoryTime_btn.Location = new System.Drawing.Point(179, 173);
+            this.InvertoryTime_btn.Name = "InvertoryTime_btn";
+            this.InvertoryTime_btn.Size = new System.Drawing.Size(132, 45);
+            this.InvertoryTime_btn.TabIndex = 59;
+            this.InvertoryTime_btn.Text = "Invertory Time";
+            this.InvertoryTime_btn.UseVisualStyleBackColor = false;
+            this.InvertoryTime_btn.Click += new System.EventHandler(this.InvertoryTime_btn_Click);
             // 
             // Supplier_btn
             // 
@@ -976,6 +1038,30 @@
             this.ProWorkCont_btn.UseVisualStyleBackColor = false;
             this.ProWorkCont_btn.Click += new System.EventHandler(this.ProductionWorkContent_btn_Click);
             // 
+            // Oven_Downtime
+            // 
+            this.Oven_Downtime.Controls.Add(this.ovenrangetemp_btn);
+            this.Oven_Downtime.Location = new System.Drawing.Point(4, 24);
+            this.Oven_Downtime.Name = "Oven_Downtime";
+            this.Oven_Downtime.Size = new System.Drawing.Size(526, 385);
+            this.Oven_Downtime.TabIndex = 4;
+            this.Oven_Downtime.Text = "Oven-Downtime";
+            this.Oven_Downtime.UseVisualStyleBackColor = true;
+            // 
+            // ovenrangetemp_btn
+            // 
+            this.ovenrangetemp_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.ovenrangetemp_btn.ControlId = "mmob027";
+            this.ovenrangetemp_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.ovenrangetemp_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.ovenrangetemp_btn.Location = new System.Drawing.Point(16, 26);
+            this.ovenrangetemp_btn.Name = "ovenrangetemp_btn";
+            this.ovenrangetemp_btn.Size = new System.Drawing.Size(132, 45);
+            this.ovenrangetemp_btn.TabIndex = 54;
+            this.ovenrangetemp_btn.Text = "Oven Range Temp";
+            this.ovenrangetemp_btn.UseVisualStyleBackColor = false;
+            this.ovenrangetemp_btn.Click += new System.EventHandler(this.ovenrangetemp_btn_Click);
+            // 
             // labelCommon1
             // 
             this.labelCommon1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -1203,44 +1289,6 @@
             this.local_user_btn.UseVisualStyleBackColor = false;
             this.local_user_btn.Click += new System.EventHandler(this.local_user_btn_Click);
             // 
-            // Oven_Downtime
-            // 
-            this.Oven_Downtime.Controls.Add(this.ovenrangetemp_btn);
-            this.Oven_Downtime.Location = new System.Drawing.Point(4, 24);
-            this.Oven_Downtime.Name = "Oven_Downtime";
-            this.Oven_Downtime.Size = new System.Drawing.Size(526, 385);
-            this.Oven_Downtime.TabIndex = 4;
-            this.Oven_Downtime.Text = "Oven-Downtime";
-            this.Oven_Downtime.UseVisualStyleBackColor = true;
-            // 
-            // ovenrangetemp_btn
-            // 
-            this.ovenrangetemp_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.ovenrangetemp_btn.ControlId = "mmob027";
-            this.ovenrangetemp_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.ovenrangetemp_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.ovenrangetemp_btn.Location = new System.Drawing.Point(16, 26);
-            this.ovenrangetemp_btn.Name = "ovenrangetemp_btn";
-            this.ovenrangetemp_btn.Size = new System.Drawing.Size(132, 45);
-            this.ovenrangetemp_btn.TabIndex = 54;
-            this.ovenrangetemp_btn.Text = "Oven Range Temp";
-            this.ovenrangetemp_btn.UseVisualStyleBackColor = false;
-            this.ovenrangetemp_btn.Click += new System.EventHandler(this.ovenrangetemp_btn_Click);
-            // 
-            // ovenbarcode_btn
-            // 
-            this.ovenbarcode_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.ovenbarcode_btn.ControlId = "cpmb014";
-            this.ovenbarcode_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.ovenbarcode_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.ovenbarcode_btn.Location = new System.Drawing.Point(287, 135);
-            this.ovenbarcode_btn.Name = "ovenbarcode_btn";
-            this.ovenbarcode_btn.Size = new System.Drawing.Size(210, 64);
-            this.ovenbarcode_btn.TabIndex = 2;
-            this.ovenbarcode_btn.Text = "Oven Barcode";
-            this.ovenbarcode_btn.UseVisualStyleBackColor = false;
-            this.ovenbarcode_btn.Click += new System.EventHandler(this.ovenbarcode_btn_Click);
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1281,8 +1329,8 @@
             this.groupBoxCommon4.ResumeLayout(false);
             this.groupBoxCommon6.ResumeLayout(false);
             this.groupBoxCommon5.ResumeLayout(false);
-            this.SystemMaster_gpb.ResumeLayout(false);
             this.Oven_Downtime.ResumeLayout(false);
+            this.SystemMaster_gpb.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1367,5 +1415,8 @@
         private System.Windows.Forms.TabPage Oven_Downtime;
         private Framework.ButtonCommon ovenrangetemp_btn;
         private Framework.ButtonCommon ovenbarcode_btn;
+        private Framework.ButtonCommon ovenbarcode_ls12_btn;
+        private Framework.ButtonCommon InvertoryTime_btn;
+        private Framework.ButtonCommon InvertoryCheck_btn;
     }
 }

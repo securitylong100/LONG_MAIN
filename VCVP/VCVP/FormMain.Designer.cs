@@ -53,6 +53,11 @@
             this.InvertoryCheck_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.WarehouseManagement_New_frm = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.account_equipments_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.btn_shippingcheck = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.btn_oqccheck = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.btn_noisecheck = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.btn_thurstcheck = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.NcvpMaster_gpb = new Com.Nidec.Mes.Framework.GroupBoxCommon();
             this.Master_tab = new Com.Nidec.Mes.Framework.TabControlCommon();
             this.Master = new System.Windows.Forms.TabPage();
@@ -110,6 +115,7 @@
             this.factory_bt = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.language_bt = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.local_user_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.btn_export = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.Menu_gpb.SuspendLayout();
             this.groupBoxCommon7.SuspendLayout();
             this.groupBoxCommon1.SuspendLayout();
@@ -118,6 +124,7 @@
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
             this.NcvpMaster_gpb.SuspendLayout();
             this.Master_tab.SuspendLayout();
             this.Master.SuspendLayout();
@@ -273,6 +280,7 @@
             this.tabControlCommon1.Controls.Add(this.tabPage1);
             this.tabControlCommon1.Controls.Add(this.tabPage2);
             this.tabControlCommon1.Controls.Add(this.tabPage3);
+            this.tabControlCommon1.Controls.Add(this.tabPage4);
             this.tabControlCommon1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControlCommon1.Location = new System.Drawing.Point(6, 49);
             this.tabControlCommon1.Name = "tabControlCommon1";
@@ -474,6 +482,72 @@
             this.account_equipments_btn.Text = "Account Equipments";
             this.account_equipments_btn.UseVisualStyleBackColor = false;
             this.account_equipments_btn.Click += new System.EventHandler(this.account_equipments_btn_Click);
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.btn_export);
+            this.tabPage4.Controls.Add(this.btn_shippingcheck);
+            this.tabPage4.Controls.Add(this.btn_oqccheck);
+            this.tabPage4.Controls.Add(this.btn_noisecheck);
+            this.tabPage4.Controls.Add(this.btn_thurstcheck);
+            this.tabPage4.Location = new System.Drawing.Point(4, 24);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(526, 386);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "GA1 Model";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // btn_shippingcheck
+            // 
+            this.btn_shippingcheck.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_shippingcheck.ControlId = null;
+            this.btn_shippingcheck.Font = new System.Drawing.Font("Arial", 9F);
+            this.btn_shippingcheck.Location = new System.Drawing.Point(300, 26);
+            this.btn_shippingcheck.Name = "btn_shippingcheck";
+            this.btn_shippingcheck.Size = new System.Drawing.Size(103, 52);
+            this.btn_shippingcheck.TabIndex = 3;
+            this.btn_shippingcheck.Text = "Shipping Check";
+            this.btn_shippingcheck.UseVisualStyleBackColor = false;
+            this.btn_shippingcheck.Click += new System.EventHandler(this.btn_shippingcheck_Click);
+            // 
+            // btn_oqccheck
+            // 
+            this.btn_oqccheck.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_oqccheck.ControlId = null;
+            this.btn_oqccheck.Font = new System.Drawing.Font("Arial", 9F);
+            this.btn_oqccheck.Location = new System.Drawing.Point(206, 26);
+            this.btn_oqccheck.Name = "btn_oqccheck";
+            this.btn_oqccheck.Size = new System.Drawing.Size(88, 52);
+            this.btn_oqccheck.TabIndex = 2;
+            this.btn_oqccheck.Text = "OQC Check";
+            this.btn_oqccheck.UseVisualStyleBackColor = false;
+            this.btn_oqccheck.Click += new System.EventHandler(this.btn_oqccheck_Click);
+            // 
+            // btn_noisecheck
+            // 
+            this.btn_noisecheck.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_noisecheck.ControlId = null;
+            this.btn_noisecheck.Font = new System.Drawing.Font("Arial", 9F);
+            this.btn_noisecheck.Location = new System.Drawing.Point(106, 26);
+            this.btn_noisecheck.Name = "btn_noisecheck";
+            this.btn_noisecheck.Size = new System.Drawing.Size(94, 52);
+            this.btn_noisecheck.TabIndex = 1;
+            this.btn_noisecheck.Text = "Noise Check";
+            this.btn_noisecheck.UseVisualStyleBackColor = false;
+            this.btn_noisecheck.Click += new System.EventHandler(this.btn_noisecheck_Click);
+            // 
+            // btn_thurstcheck
+            // 
+            this.btn_thurstcheck.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_thurstcheck.ControlId = null;
+            this.btn_thurstcheck.Font = new System.Drawing.Font("Arial", 9F);
+            this.btn_thurstcheck.Location = new System.Drawing.Point(6, 26);
+            this.btn_thurstcheck.Name = "btn_thurstcheck";
+            this.btn_thurstcheck.Size = new System.Drawing.Size(90, 52);
+            this.btn_thurstcheck.TabIndex = 0;
+            this.btn_thurstcheck.Text = "Thurst Check";
+            this.btn_thurstcheck.UseVisualStyleBackColor = false;
+            this.btn_thurstcheck.Click += new System.EventHandler(this.btn_thurstcheck_Click);
             // 
             // NcvpMaster_gpb
             // 
@@ -1289,6 +1363,19 @@
             this.local_user_btn.UseVisualStyleBackColor = false;
             this.local_user_btn.Click += new System.EventHandler(this.local_user_btn_Click);
             // 
+            // btn_export
+            // 
+            this.btn_export.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_export.ControlId = null;
+            this.btn_export.Font = new System.Drawing.Font("Arial", 9F);
+            this.btn_export.Location = new System.Drawing.Point(413, 26);
+            this.btn_export.Name = "btn_export";
+            this.btn_export.Size = new System.Drawing.Size(80, 52);
+            this.btn_export.TabIndex = 4;
+            this.btn_export.Text = "Export";
+            this.btn_export.UseVisualStyleBackColor = false;
+            this.btn_export.Click += new System.EventHandler(this.btn_export_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1316,6 +1403,7 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
             this.NcvpMaster_gpb.ResumeLayout(false);
             this.Master_tab.ResumeLayout(false);
             this.Master.ResumeLayout(false);
@@ -1418,5 +1506,11 @@
         private Framework.ButtonCommon ovenbarcode_ls12_btn;
         private Framework.ButtonCommon InvertoryTime_btn;
         private Framework.ButtonCommon InvertoryCheck_btn;
+        private System.Windows.Forms.TabPage tabPage4;
+        private Framework.ButtonCommon btn_noisecheck;
+        private Framework.ButtonCommon btn_thurstcheck;
+        private Framework.ButtonCommon btn_oqccheck;
+        private Framework.ButtonCommon btn_shippingcheck;
+        private Framework.ButtonCommon btn_export;
     }
 }

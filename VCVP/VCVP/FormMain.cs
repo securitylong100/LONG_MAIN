@@ -421,5 +421,35 @@ namespace Com.Nidec.Mes.VCVP
             InvertoryCheckForm invertorycheckform = new InvertoryCheckForm();
             invertorycheckform.ShowDialog();
         }
+
+        private void btn_thurstcheck_Click(object sender, EventArgs e)
+        {
+            ThurstCheckForm thchec = new ThurstCheckForm();
+            thchec.ShowDialog();
+        }
+
+        private void btn_noisecheck_Click(object sender, EventArgs e)
+        {
+            NoiseCheckForm noisefr =new  NoiseCheckForm();
+            noisefr.ShowDialog();
+        }
+
+        private void btn_oqccheck_Click(object sender, EventArgs e)
+        {
+            OQCCheckForm oqcfr = new OQCCheckForm();
+            oqcfr.ShowDialog();
+        }
+
+        private void btn_shippingcheck_Click(object sender, EventArgs e)
+        {
+            ShippingCheckForm shippingfr = new ShippingCheckForm();
+            shippingfr.ShowDialog();
+        }
+
+        private void btn_export_Click(object sender, EventArgs e)
+        {
+            ShowCheckForm showfr = new ShowCheckForm();
+            showfr.ShowDialog();
+        }
     }
 }

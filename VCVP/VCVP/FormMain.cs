@@ -451,5 +451,11 @@ namespace Com.Nidec.Mes.VCVP
             ShowCheckForm showfr = new ShowCheckForm();
             showfr.ShowDialog();
         }
+
+        private void buttonCommon1_Click(object sender, EventArgs e)
+        {
+            TestForm tesfr = new TestForm();
+            tesfr.ShowDialog();
+        }
     }
 }

@@ -3689,3 +3689,5 @@ Npgsql.PostgresException (0x80004005): 42601: syntax error at or near ":"
 2018-12-21 09:45:26,186 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-12-21 09:45:26
 2018-12-21 09:57:30,690 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-21 09:57:30
 2018-12-21 09:58:47,185 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-12-21 09:58:47
+2018-12-21 14:01:35,816 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-21 14:01:35
+2018-12-21 14:01:45,444 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-12-21 14:01:45

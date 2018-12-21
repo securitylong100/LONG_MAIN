@@ -105,4 +105,3 @@ D:\NIDEC MES\LONG_MAIN\VCVP\VCVP\obj\Debug\NCVP Management System.exe.manifest
 D:\NIDEC MES\LONG_MAIN\VCVP\VCVP\obj\Debug\NCVP Management System.application
 D:\NIDEC MES\LONG_MAIN\VCVP\VCVP\obj\Debug\NCVP Management System.exe
 D:\NIDEC MES\LONG_MAIN\VCVP\VCVP\obj\Debug\NCVP Management System.pdb
-D:\NIDEC MES\LONG_MAIN\VCVP\VCVP\obj\Debug\VCVP.csprojResolveAssemblyReference.cache

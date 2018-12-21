@@ -54,6 +54,7 @@
             this.WarehouseManagement_New_frm = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.account_equipments_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.btn_export = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_shippingcheck = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_oqccheck = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_noisecheck = new Com.Nidec.Mes.Framework.ButtonCommon();
@@ -115,7 +116,6 @@
             this.factory_bt = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.language_bt = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.local_user_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.btn_export = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.Menu_gpb.SuspendLayout();
             this.groupBoxCommon7.SuspendLayout();
             this.groupBoxCommon1.SuspendLayout();
@@ -497,10 +497,23 @@
             this.tabPage4.Text = "GA1 Model";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // btn_export
+            // 
+            this.btn_export.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_export.ControlId = "cpmb022";
+            this.btn_export.Font = new System.Drawing.Font("Arial", 9F);
+            this.btn_export.Location = new System.Drawing.Point(413, 26);
+            this.btn_export.Name = "btn_export";
+            this.btn_export.Size = new System.Drawing.Size(80, 52);
+            this.btn_export.TabIndex = 4;
+            this.btn_export.Text = "Export";
+            this.btn_export.UseVisualStyleBackColor = false;
+            this.btn_export.Click += new System.EventHandler(this.btn_export_Click);
+            // 
             // btn_shippingcheck
             // 
             this.btn_shippingcheck.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_shippingcheck.ControlId = null;
+            this.btn_shippingcheck.ControlId = "cpmb021";
             this.btn_shippingcheck.Font = new System.Drawing.Font("Arial", 9F);
             this.btn_shippingcheck.Location = new System.Drawing.Point(300, 26);
             this.btn_shippingcheck.Name = "btn_shippingcheck";
@@ -513,7 +526,7 @@
             // btn_oqccheck
             // 
             this.btn_oqccheck.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_oqccheck.ControlId = null;
+            this.btn_oqccheck.ControlId = "cpmb020";
             this.btn_oqccheck.Font = new System.Drawing.Font("Arial", 9F);
             this.btn_oqccheck.Location = new System.Drawing.Point(206, 26);
             this.btn_oqccheck.Name = "btn_oqccheck";
@@ -526,7 +539,7 @@
             // btn_noisecheck
             // 
             this.btn_noisecheck.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_noisecheck.ControlId = null;
+            this.btn_noisecheck.ControlId = "cpmb019";
             this.btn_noisecheck.Font = new System.Drawing.Font("Arial", 9F);
             this.btn_noisecheck.Location = new System.Drawing.Point(106, 26);
             this.btn_noisecheck.Name = "btn_noisecheck";
@@ -539,7 +552,7 @@
             // btn_thurstcheck
             // 
             this.btn_thurstcheck.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_thurstcheck.ControlId = null;
+            this.btn_thurstcheck.ControlId = "cpmb018";
             this.btn_thurstcheck.Font = new System.Drawing.Font("Arial", 9F);
             this.btn_thurstcheck.Location = new System.Drawing.Point(6, 26);
             this.btn_thurstcheck.Name = "btn_thurstcheck";
@@ -1362,19 +1375,6 @@
             this.local_user_btn.Text = "Register Local User";
             this.local_user_btn.UseVisualStyleBackColor = false;
             this.local_user_btn.Click += new System.EventHandler(this.local_user_btn_Click);
-            // 
-            // btn_export
-            // 
-            this.btn_export.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_export.ControlId = null;
-            this.btn_export.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_export.Location = new System.Drawing.Point(413, 26);
-            this.btn_export.Name = "btn_export";
-            this.btn_export.Size = new System.Drawing.Size(80, 52);
-            this.btn_export.TabIndex = 4;
-            this.btn_export.Text = "Export";
-            this.btn_export.UseVisualStyleBackColor = false;
-            this.btn_export.Click += new System.EventHandler(this.btn_export_Click);
             // 
             // FormMain
             // 

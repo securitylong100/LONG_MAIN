@@ -54,6 +54,7 @@
             this.WarehouseManagement_New_frm = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.account_equipments_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.btn_production_GA1 = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_export = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_shippingcheck = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_oqccheck = new Com.Nidec.Mes.Framework.ButtonCommon();
@@ -116,7 +117,6 @@
             this.factory_bt = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.language_bt = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.local_user_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.btn_production_GA1 = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.Menu_gpb.SuspendLayout();
             this.groupBoxCommon7.SuspendLayout();
             this.groupBoxCommon1.SuspendLayout();
@@ -498,6 +498,19 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "GA1 Model";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // btn_production_GA1
+            // 
+            this.btn_production_GA1.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_production_GA1.ControlId = null;
+            this.btn_production_GA1.Font = new System.Drawing.Font("Arial", 9F);
+            this.btn_production_GA1.Location = new System.Drawing.Point(6, 108);
+            this.btn_production_GA1.Name = "btn_production_GA1";
+            this.btn_production_GA1.Size = new System.Drawing.Size(90, 52);
+            this.btn_production_GA1.TabIndex = 5;
+            this.btn_production_GA1.Text = "Production Controller";
+            this.btn_production_GA1.UseVisualStyleBackColor = false;
+            this.btn_production_GA1.Click += new System.EventHandler(this.buttonCommon1_Click);
             // 
             // btn_export
             // 
@@ -1377,19 +1390,6 @@
             this.local_user_btn.Text = "Register Local User";
             this.local_user_btn.UseVisualStyleBackColor = false;
             this.local_user_btn.Click += new System.EventHandler(this.local_user_btn_Click);
-            // 
-            // btn_production_GA1
-            // 
-            this.btn_production_GA1.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_production_GA1.ControlId = null;
-            this.btn_production_GA1.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_production_GA1.Location = new System.Drawing.Point(6, 108);
-            this.btn_production_GA1.Name = "btn_production_GA1";
-            this.btn_production_GA1.Size = new System.Drawing.Size(90, 52);
-            this.btn_production_GA1.TabIndex = 5;
-            this.btn_production_GA1.Text = "Production Controller";
-            this.btn_production_GA1.UseVisualStyleBackColor = false;
-            this.btn_production_GA1.Click += new System.EventHandler(this.buttonCommon1_Click);
             // 
             // FormMain
             // 

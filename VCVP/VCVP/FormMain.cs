@@ -442,7 +442,7 @@ namespace Com.Nidec.Mes.VCVP
 
         private void btn_shippingcheck_Click(object sender, EventArgs e)
         {
-            ShippingCheckForm shippingfr = new ShippingCheckForm();
+            ShippingForm shippingfr = new ShippingForm();
             shippingfr.ShowDialog();
         }
 

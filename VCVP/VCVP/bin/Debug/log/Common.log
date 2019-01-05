@@ -3788,3 +3788,62 @@ Npgsql.PostgresException (0x80004005): 42601: syntax error at or near ":"
 2019-01-04 13:58:45,702 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/04 13:58:45
 2019-01-04 13:59:07,437 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/04 13:59:07
 2019-01-04 13:59:08,666 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/04 13:59:08
+2019-01-05 13:10:45,335 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 13:10:45
+2019-01-05 13:10:45,605 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00004]Please provide  valid input.
+2019-01-05 13:10:46,617 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 13:10:46
+2019-01-05 13:10:47,477 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 13:10:47
+2019-01-05 13:12:50,111 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 13:12:50
+2019-01-05 13:14:00,039 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 13:14:00
+2019-01-05 13:15:06,065 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 13:15:06
+2019-01-05 13:19:33,725 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 13:19:33
+2019-01-05 13:25:16,543 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 13:25:16
+2019-01-05 13:27:03,290 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 13:27:03
+2019-01-05 14:17:27,023 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 14:17:27
+2019-01-05 14:18:11,722 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42P01: relation "product_serial" does not exist.
+Npgsql.PostgresException (0x80004005): 42P01: relation "product_serial" does not exist
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteNonQueryInternal()
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteNonQuery(DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 40
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.AddProductDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\GA1ModelDao\Shipping\AddProductDao.cs:line 41
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.AddProductCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\GA1ModelCbm\Shipping\AddProductCbm.cs:line 23
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2019-01-05 14:18:14,534 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 14:18:14
+2019-01-05 14:19:07,745 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 14:19:07
+2019-01-05 14:20:21,788 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42703: column "lot" of relation "t_product_serial" does not exist.
+Npgsql.PostgresException (0x80004005): 42703: column "lot" of relation "t_product_serial" does not exist
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteNonQueryInternal()
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteNonQuery(DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 40
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.AddProductDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\GA1ModelDao\Shipping\AddProductDao.cs:line 41
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.AddProductCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\GA1ModelCbm\Shipping\AddProductCbm.cs:line 23
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2019-01-05 14:20:28,630 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 14:20:28
+2019-01-05 14:20:54,956 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 14:20:54
+2019-01-05 14:21:29,324 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 14:21:29
+2019-01-05 14:22:09,610 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 14:22:09
+2019-01-05 14:22:16,696 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 14:22:16
+2019-01-05 14:23:08,178 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 14:23:08
+2019-01-05 14:23:23,713 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 14:23:17
+2019-01-05 14:27:04,380 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 14:27:04
+2019-01-05 14:27:09,864 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 14:27:09
+2019-01-05 14:27:53,406 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 14:27:53
+2019-01-05 14:29:34,890 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 14:29:34
+2019-01-05 14:29:36,810 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 14:29:36
+2019-01-05 14:46:26,578 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 14:46:26
+2019-01-05 14:47:10,907 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 14:47:10
+2019-01-05 14:47:36,233 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 14:47:36
+2019-01-05 14:48:54,016 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 14:48:54
+2019-01-05 14:49:18,228 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 14:49:18
+2019-01-05 14:49:25,412 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 14:49:25

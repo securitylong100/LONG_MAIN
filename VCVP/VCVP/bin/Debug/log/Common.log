@@ -3847,3 +3847,8 @@ Npgsql.PostgresException (0x80004005): 42703: column "lot" of relation "t_produc
 2019-01-05 14:48:54,016 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 14:48:54
 2019-01-05 14:49:18,228 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 14:49:18
 2019-01-05 14:49:25,412 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 14:49:25
+2019-01-11 09:01:43,687 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/11 09:01:43
+2019-01-11 09:02:48,694 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/11 09:02:48
+2019-01-11 09:56:02,695 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/11 09:56:02
+2019-01-11 09:56:44,201 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/11 09:56:44
+2019-01-11 10:00:03,945 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/11 10:00:03

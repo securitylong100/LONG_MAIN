@@ -67,7 +67,6 @@ D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\bin\Debug\zh\GlobalMasterMaintenance.resources.d
 D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\bin\Debug\zh-CHS\GlobalMasterMaintenance.resources.dll
 D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\bin\Debug\zh-Hans\GlobalMasterMaintenance.resources.dll
 D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\bin\Debug\vi\MachineMaintenance.resources.dll
-D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\bin\Debug\vi-VN\MachineMaintenance.resources.dll
 D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\obj\Debug\NCVP Management System.exe.manifest
 D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\obj\Debug\NCVP Management System.application
 D:\NIDEC MES\LONG_MAIN\VCVP\VCVP\bin\Debug\NCVP Management System.exe.config
@@ -140,3 +139,4 @@ D:\GIT_HUB\NIDEC\NCVP_MAIN\VCVP\VCVP\obj\Debug\VCVP.csproj.GenerateResource.Cach
 D:\GIT_HUB\NIDEC\NCVP_MAIN\VCVP\VCVP\obj\Debug\NCVP Management System.TrustInfo.xml
 D:\GIT_HUB\NIDEC\NCVP_MAIN\VCVP\VCVP\obj\Debug\NCVP Management System.exe.manifest
 D:\GIT_HUB\NIDEC\NCVP_MAIN\VCVP\VCVP\obj\Debug\NCVP Management System.application
+D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\bin\Debug\vi-VN\MachineMaintenance.resources.dll

@@ -87,30 +87,30 @@
             this.language_bt = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.local_user_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.tabControlCommon1 = new Com.Nidec.Mes.Framework.TabControlCommon();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.btn_shippingcheck = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btn_oqccheck = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.btn_noisecheck = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.btn_thurstcheck = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.GA1Chart_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.btn_export = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.btn_production_GA1 = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.account_equipments_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.WarehouseManagement_New_frm = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.InvertoryCheck_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.MachineWorkingStatus_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.Doc_Main_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.production_controller_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.ovenbarcode_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.ovenbarcode_ls12_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.DrawRegist_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.jig_repair_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.DownTime_bt = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.jig_repair_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.DrawRegist_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.ovenbarcode_ls12_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.ovenbarcode_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.production_controller_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.Doc_Main_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.MachineWorkingStatus_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.InvertoryCheck_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.WarehouseManagement_New_frm = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.account_equipments_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btn_production_GA1 = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.btn_export = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.GA1Chart_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btn_thurstcheck = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.btn_noisecheck = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.btn_oqccheck = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.btn_shippingcheck = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.labelCommon2 = new Com.Nidec.Mes.Framework.LabelCommon();
             this.NCVP_Function_gr = new Com.Nidec.Mes.Framework.GroupBoxCommon();
             this.ChangePass_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
@@ -136,12 +136,12 @@
             this.Oven_Downtime.SuspendLayout();
             this.SystemMaster_gpb.SuspendLayout();
             this.tabControlCommon1.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.tabPage2.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.NCVP_Function_gr.SuspendLayout();
             this.groupBoxCommon7.SuspendLayout();
             this.groupBoxCommon1.SuspendLayout();
@@ -294,7 +294,7 @@
             this.ACC_WH.Location = new System.Drawing.Point(4, 24);
             this.ACC_WH.Name = "ACC_WH";
             this.ACC_WH.Padding = new System.Windows.Forms.Padding(3);
-            this.ACC_WH.Size = new System.Drawing.Size(678, 489);
+            this.ACC_WH.Size = new System.Drawing.Size(679, 489);
             this.ACC_WH.TabIndex = 1;
             this.ACC_WH.Text = "Account-WH";
             this.ACC_WH.UseVisualStyleBackColor = true;
@@ -481,7 +481,7 @@
             this.Work_Status.Location = new System.Drawing.Point(4, 24);
             this.Work_Status.Name = "Work_Status";
             this.Work_Status.Padding = new System.Windows.Forms.Padding(3);
-            this.Work_Status.Size = new System.Drawing.Size(678, 489);
+            this.Work_Status.Size = new System.Drawing.Size(679, 489);
             this.Work_Status.TabIndex = 2;
             this.Work_Status.Text = "Working Status";
             this.Work_Status.UseVisualStyleBackColor = true;
@@ -535,7 +535,7 @@
             this.Jig_Draw.Location = new System.Drawing.Point(4, 24);
             this.Jig_Draw.Name = "Jig_Draw";
             this.Jig_Draw.Padding = new System.Windows.Forms.Padding(3);
-            this.Jig_Draw.Size = new System.Drawing.Size(678, 489);
+            this.Jig_Draw.Size = new System.Drawing.Size(679, 489);
             this.Jig_Draw.TabIndex = 3;
             this.Jig_Draw.Text = "Jig - Draw";
             this.Jig_Draw.UseVisualStyleBackColor = true;
@@ -713,7 +713,7 @@
             this.Oven_Downtime.Controls.Add(this.ovenrangetemp_btn);
             this.Oven_Downtime.Location = new System.Drawing.Point(4, 24);
             this.Oven_Downtime.Name = "Oven_Downtime";
-            this.Oven_Downtime.Size = new System.Drawing.Size(678, 489);
+            this.Oven_Downtime.Size = new System.Drawing.Size(679, 489);
             this.Oven_Downtime.TabIndex = 4;
             this.Oven_Downtime.Text = "Oven-Downtime";
             this.Oven_Downtime.UseVisualStyleBackColor = true;
@@ -973,273 +973,6 @@
             this.tabControlCommon1.Size = new System.Drawing.Size(687, 518);
             this.tabControlCommon1.TabIndex = 49;
             // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.groupBox2);
-            this.tabPage4.Controls.Add(this.groupBox1);
-            this.tabPage4.Controls.Add(this.btn_shippingcheck);
-            this.tabPage4.Location = new System.Drawing.Point(4, 24);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(678, 490);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "GA1 Model";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // btn_shippingcheck
-            // 
-            this.btn_shippingcheck.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_shippingcheck.ControlId = "cpmb021";
-            this.btn_shippingcheck.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_shippingcheck.Location = new System.Drawing.Point(14, 108);
-            this.btn_shippingcheck.Name = "btn_shippingcheck";
-            this.btn_shippingcheck.Size = new System.Drawing.Size(92, 52);
-            this.btn_shippingcheck.TabIndex = 3;
-            this.btn_shippingcheck.Text = "Shipping Check";
-            this.btn_shippingcheck.UseVisualStyleBackColor = false;
-            this.btn_shippingcheck.Click += new System.EventHandler(this.btn_shippingcheck_Click);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.btn_thurstcheck);
-            this.groupBox1.Controls.Add(this.btn_noisecheck);
-            this.groupBox1.Controls.Add(this.btn_oqccheck);
-            this.groupBox1.Location = new System.Drawing.Point(6, 6);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(323, 84);
-            this.groupBox1.TabIndex = 6;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Check";
-            // 
-            // btn_oqccheck
-            // 
-            this.btn_oqccheck.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_oqccheck.ControlId = "cpmb020";
-            this.btn_oqccheck.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_oqccheck.Location = new System.Drawing.Point(226, 23);
-            this.btn_oqccheck.Name = "btn_oqccheck";
-            this.btn_oqccheck.Size = new System.Drawing.Size(92, 52);
-            this.btn_oqccheck.TabIndex = 2;
-            this.btn_oqccheck.Text = "OQC Check";
-            this.btn_oqccheck.UseVisualStyleBackColor = false;
-            this.btn_oqccheck.Click += new System.EventHandler(this.btn_oqccheck_Click);
-            // 
-            // btn_noisecheck
-            // 
-            this.btn_noisecheck.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_noisecheck.ControlId = "cpmb019";
-            this.btn_noisecheck.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_noisecheck.Location = new System.Drawing.Point(117, 23);
-            this.btn_noisecheck.Name = "btn_noisecheck";
-            this.btn_noisecheck.Size = new System.Drawing.Size(92, 52);
-            this.btn_noisecheck.TabIndex = 1;
-            this.btn_noisecheck.Text = "Noise Check";
-            this.btn_noisecheck.UseVisualStyleBackColor = false;
-            this.btn_noisecheck.Click += new System.EventHandler(this.btn_noisecheck_Click);
-            // 
-            // btn_thurstcheck
-            // 
-            this.btn_thurstcheck.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_thurstcheck.ControlId = "cpmb018";
-            this.btn_thurstcheck.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_thurstcheck.Location = new System.Drawing.Point(8, 23);
-            this.btn_thurstcheck.Name = "btn_thurstcheck";
-            this.btn_thurstcheck.Size = new System.Drawing.Size(92, 52);
-            this.btn_thurstcheck.TabIndex = 0;
-            this.btn_thurstcheck.Text = "Thurst Check";
-            this.btn_thurstcheck.UseVisualStyleBackColor = false;
-            this.btn_thurstcheck.Click += new System.EventHandler(this.btn_thurstcheck_Click);
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.btn_production_GA1);
-            this.groupBox2.Controls.Add(this.btn_export);
-            this.groupBox2.Controls.Add(this.GA1Chart_btn);
-            this.groupBox2.Location = new System.Drawing.Point(351, 6);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(321, 82);
-            this.groupBox2.TabIndex = 7;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Control";
-            // 
-            // GA1Chart_btn
-            // 
-            this.GA1Chart_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.GA1Chart_btn.ControlId = null;
-            this.GA1Chart_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.GA1Chart_btn.Location = new System.Drawing.Point(115, 20);
-            this.GA1Chart_btn.Name = "GA1Chart_btn";
-            this.GA1Chart_btn.Size = new System.Drawing.Size(92, 52);
-            this.GA1Chart_btn.TabIndex = 5;
-            this.GA1Chart_btn.Text = "GA1 Controll";
-            this.GA1Chart_btn.UseVisualStyleBackColor = false;
-            this.GA1Chart_btn.Click += new System.EventHandler(this.buttonCommon1_Click_1);
-            // 
-            // btn_export
-            // 
-            this.btn_export.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_export.ControlId = "cpmb022";
-            this.btn_export.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_export.Location = new System.Drawing.Point(224, 20);
-            this.btn_export.Name = "btn_export";
-            this.btn_export.Size = new System.Drawing.Size(92, 52);
-            this.btn_export.TabIndex = 4;
-            this.btn_export.Text = "Export";
-            this.btn_export.UseVisualStyleBackColor = false;
-            this.btn_export.Click += new System.EventHandler(this.btn_export_Click);
-            // 
-            // btn_production_GA1
-            // 
-            this.btn_production_GA1.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_production_GA1.ControlId = null;
-            this.btn_production_GA1.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_production_GA1.Location = new System.Drawing.Point(6, 20);
-            this.btn_production_GA1.Name = "btn_production_GA1";
-            this.btn_production_GA1.Size = new System.Drawing.Size(92, 52);
-            this.btn_production_GA1.TabIndex = 5;
-            this.btn_production_GA1.Text = "Production Controller";
-            this.btn_production_GA1.UseVisualStyleBackColor = false;
-            this.btn_production_GA1.Click += new System.EventHandler(this.btn_production_GA1_Click);
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.InvertoryCheck_btn);
-            this.tabPage3.Controls.Add(this.WarehouseManagement_New_frm);
-            this.tabPage3.Controls.Add(this.account_equipments_btn);
-            this.tabPage3.Location = new System.Drawing.Point(4, 24);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(678, 490);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Account - Equipments";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // account_equipments_btn
-            // 
-            this.account_equipments_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.account_equipments_btn.ControlId = "cpmb011";
-            this.account_equipments_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.account_equipments_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.account_equipments_btn.Location = new System.Drawing.Point(287, 26);
-            this.account_equipments_btn.Name = "account_equipments_btn";
-            this.account_equipments_btn.Size = new System.Drawing.Size(210, 64);
-            this.account_equipments_btn.TabIndex = 48;
-            this.account_equipments_btn.Text = "Account Equipments";
-            this.account_equipments_btn.UseVisualStyleBackColor = false;
-            this.account_equipments_btn.Click += new System.EventHandler(this.account_equipments_btn_Click);
-            // 
-            // WarehouseManagement_New_frm
-            // 
-            this.WarehouseManagement_New_frm.BackColor = System.Drawing.SystemColors.Control;
-            this.WarehouseManagement_New_frm.ControlId = "cpmb010";
-            this.WarehouseManagement_New_frm.Font = new System.Drawing.Font("Arial", 9F);
-            this.WarehouseManagement_New_frm.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.WarehouseManagement_New_frm.Location = new System.Drawing.Point(38, 26);
-            this.WarehouseManagement_New_frm.Name = "WarehouseManagement_New_frm";
-            this.WarehouseManagement_New_frm.Size = new System.Drawing.Size(210, 64);
-            this.WarehouseManagement_New_frm.TabIndex = 0;
-            this.WarehouseManagement_New_frm.Text = "Equipment Management";
-            this.WarehouseManagement_New_frm.UseVisualStyleBackColor = false;
-            this.WarehouseManagement_New_frm.Click += new System.EventHandler(this.WarehouseManagement_New_frm_Click);
-            // 
-            // InvertoryCheck_btn
-            // 
-            this.InvertoryCheck_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.InvertoryCheck_btn.ControlId = "cpmb016";
-            this.InvertoryCheck_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.InvertoryCheck_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.InvertoryCheck_btn.Location = new System.Drawing.Point(38, 113);
-            this.InvertoryCheck_btn.Name = "InvertoryCheck_btn";
-            this.InvertoryCheck_btn.Size = new System.Drawing.Size(210, 64);
-            this.InvertoryCheck_btn.TabIndex = 49;
-            this.InvertoryCheck_btn.Text = "Inventory Check";
-            this.InvertoryCheck_btn.UseVisualStyleBackColor = false;
-            this.InvertoryCheck_btn.Click += new System.EventHandler(this.InvertoryCheck_btn_Click);
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.ovenbarcode_ls12_btn);
-            this.tabPage2.Controls.Add(this.ovenbarcode_btn);
-            this.tabPage2.Controls.Add(this.production_controller_btn);
-            this.tabPage2.Controls.Add(this.Doc_Main_btn);
-            this.tabPage2.Controls.Add(this.MachineWorkingStatus_btn);
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(678, 490);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Control Management";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // MachineWorkingStatus_btn
-            // 
-            this.MachineWorkingStatus_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.MachineWorkingStatus_btn.ControlId = "cpmb009";
-            this.MachineWorkingStatus_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.MachineWorkingStatus_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.MachineWorkingStatus_btn.Location = new System.Drawing.Point(287, 26);
-            this.MachineWorkingStatus_btn.Name = "MachineWorkingStatus_btn";
-            this.MachineWorkingStatus_btn.Size = new System.Drawing.Size(210, 64);
-            this.MachineWorkingStatus_btn.TabIndex = 0;
-            this.MachineWorkingStatus_btn.Text = "Machine Working Status";
-            this.MachineWorkingStatus_btn.UseVisualStyleBackColor = false;
-            this.MachineWorkingStatus_btn.Click += new System.EventHandler(this.MachineWorkingStatus_btn_Click);
-            // 
-            // Doc_Main_btn
-            // 
-            this.Doc_Main_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.Doc_Main_btn.ControlId = "cpmb007";
-            this.Doc_Main_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.Doc_Main_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Doc_Main_btn.Location = new System.Drawing.Point(27, 26);
-            this.Doc_Main_btn.Name = "Doc_Main_btn";
-            this.Doc_Main_btn.Size = new System.Drawing.Size(210, 64);
-            this.Doc_Main_btn.TabIndex = 0;
-            this.Doc_Main_btn.Text = "Document Management";
-            this.Doc_Main_btn.UseVisualStyleBackColor = false;
-            this.Doc_Main_btn.Click += new System.EventHandler(this.Doc_Main_btn_Click);
-            // 
-            // production_controller_btn
-            // 
-            this.production_controller_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.production_controller_btn.ControlId = "cpmb013";
-            this.production_controller_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.production_controller_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.production_controller_btn.Location = new System.Drawing.Point(27, 126);
-            this.production_controller_btn.Name = "production_controller_btn";
-            this.production_controller_btn.Size = new System.Drawing.Size(210, 64);
-            this.production_controller_btn.TabIndex = 1;
-            this.production_controller_btn.Text = "Production Controller";
-            this.production_controller_btn.UseVisualStyleBackColor = false;
-            this.production_controller_btn.Click += new System.EventHandler(this.production_controller_btn_Click);
-            // 
-            // ovenbarcode_btn
-            // 
-            this.ovenbarcode_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.ovenbarcode_btn.ControlId = "cpmb014";
-            this.ovenbarcode_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.ovenbarcode_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.ovenbarcode_btn.Location = new System.Drawing.Point(287, 126);
-            this.ovenbarcode_btn.Name = "ovenbarcode_btn";
-            this.ovenbarcode_btn.Size = new System.Drawing.Size(210, 64);
-            this.ovenbarcode_btn.TabIndex = 2;
-            this.ovenbarcode_btn.Text = "Oven Barcode";
-            this.ovenbarcode_btn.UseVisualStyleBackColor = false;
-            this.ovenbarcode_btn.Click += new System.EventHandler(this.ovenbarcode_btn_Click);
-            // 
-            // ovenbarcode_ls12_btn
-            // 
-            this.ovenbarcode_ls12_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.ovenbarcode_ls12_btn.ControlId = "cpmb015";
-            this.ovenbarcode_ls12_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.ovenbarcode_ls12_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.ovenbarcode_ls12_btn.Location = new System.Drawing.Point(27, 226);
-            this.ovenbarcode_ls12_btn.Name = "ovenbarcode_ls12_btn";
-            this.ovenbarcode_ls12_btn.Size = new System.Drawing.Size(210, 64);
-            this.ovenbarcode_ls12_btn.TabIndex = 3;
-            this.ovenbarcode_ls12_btn.Text = "Oven Barcode LS12";
-            this.ovenbarcode_ls12_btn.UseVisualStyleBackColor = false;
-            this.ovenbarcode_ls12_btn.Click += new System.EventHandler(this.ovenbarcode_ls12_btn_Click);
-            // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.DownTime_bt);
@@ -1253,19 +986,19 @@
             this.tabPage1.Text = "Technical Maintenance";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // DrawRegist_btn
+            // DownTime_bt
             // 
-            this.DrawRegist_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.DrawRegist_btn.ControlId = "cpmb008";
-            this.DrawRegist_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.DrawRegist_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.DrawRegist_btn.Location = new System.Drawing.Point(27, 126);
-            this.DrawRegist_btn.Name = "DrawRegist_btn";
-            this.DrawRegist_btn.Size = new System.Drawing.Size(210, 64);
-            this.DrawRegist_btn.TabIndex = 0;
-            this.DrawRegist_btn.Text = "Drawing Management";
-            this.DrawRegist_btn.UseVisualStyleBackColor = false;
-            this.DrawRegist_btn.Click += new System.EventHandler(this.DrawRegist_btn_Click);
+            this.DownTime_bt.BackColor = System.Drawing.SystemColors.Control;
+            this.DownTime_bt.ControlId = "cpmb005";
+            this.DownTime_bt.Font = new System.Drawing.Font("Arial", 9F);
+            this.DownTime_bt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.DownTime_bt.Location = new System.Drawing.Point(27, 26);
+            this.DownTime_bt.Name = "DownTime_bt";
+            this.DownTime_bt.Size = new System.Drawing.Size(210, 64);
+            this.DownTime_bt.TabIndex = 0;
+            this.DownTime_bt.Text = "DownTime Report";
+            this.DownTime_bt.UseVisualStyleBackColor = false;
+            this.DownTime_bt.Click += new System.EventHandler(this.DownTime_bt_Click);
             // 
             // jig_repair_btn
             // 
@@ -1281,19 +1014,288 @@
             this.jig_repair_btn.UseVisualStyleBackColor = false;
             this.jig_repair_btn.Click += new System.EventHandler(this.jig_repair_btn_Click);
             // 
-            // DownTime_bt
+            // DrawRegist_btn
             // 
-            this.DownTime_bt.BackColor = System.Drawing.SystemColors.Control;
-            this.DownTime_bt.ControlId = "cpmb005";
-            this.DownTime_bt.Font = new System.Drawing.Font("Arial", 9F);
-            this.DownTime_bt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.DownTime_bt.Location = new System.Drawing.Point(27, 26);
-            this.DownTime_bt.Name = "DownTime_bt";
-            this.DownTime_bt.Size = new System.Drawing.Size(210, 64);
-            this.DownTime_bt.TabIndex = 0;
-            this.DownTime_bt.Text = "DownTime Report";
-            this.DownTime_bt.UseVisualStyleBackColor = false;
-            this.DownTime_bt.Click += new System.EventHandler(this.DownTime_bt_Click);
+            this.DrawRegist_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.DrawRegist_btn.ControlId = "cpmb008";
+            this.DrawRegist_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.DrawRegist_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.DrawRegist_btn.Location = new System.Drawing.Point(27, 126);
+            this.DrawRegist_btn.Name = "DrawRegist_btn";
+            this.DrawRegist_btn.Size = new System.Drawing.Size(210, 64);
+            this.DrawRegist_btn.TabIndex = 0;
+            this.DrawRegist_btn.Text = "Drawing Management";
+            this.DrawRegist_btn.UseVisualStyleBackColor = false;
+            this.DrawRegist_btn.Click += new System.EventHandler(this.DrawRegist_btn_Click);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.ovenbarcode_ls12_btn);
+            this.tabPage2.Controls.Add(this.ovenbarcode_btn);
+            this.tabPage2.Controls.Add(this.production_controller_btn);
+            this.tabPage2.Controls.Add(this.Doc_Main_btn);
+            this.tabPage2.Controls.Add(this.MachineWorkingStatus_btn);
+            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(679, 490);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Control Management";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // ovenbarcode_ls12_btn
+            // 
+            this.ovenbarcode_ls12_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.ovenbarcode_ls12_btn.ControlId = "cpmb015";
+            this.ovenbarcode_ls12_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.ovenbarcode_ls12_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.ovenbarcode_ls12_btn.Location = new System.Drawing.Point(27, 226);
+            this.ovenbarcode_ls12_btn.Name = "ovenbarcode_ls12_btn";
+            this.ovenbarcode_ls12_btn.Size = new System.Drawing.Size(210, 64);
+            this.ovenbarcode_ls12_btn.TabIndex = 3;
+            this.ovenbarcode_ls12_btn.Text = "Oven Barcode LS12";
+            this.ovenbarcode_ls12_btn.UseVisualStyleBackColor = false;
+            this.ovenbarcode_ls12_btn.Click += new System.EventHandler(this.ovenbarcode_ls12_btn_Click);
+            // 
+            // ovenbarcode_btn
+            // 
+            this.ovenbarcode_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.ovenbarcode_btn.ControlId = "cpmb014";
+            this.ovenbarcode_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.ovenbarcode_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.ovenbarcode_btn.Location = new System.Drawing.Point(287, 126);
+            this.ovenbarcode_btn.Name = "ovenbarcode_btn";
+            this.ovenbarcode_btn.Size = new System.Drawing.Size(210, 64);
+            this.ovenbarcode_btn.TabIndex = 2;
+            this.ovenbarcode_btn.Text = "Oven Barcode";
+            this.ovenbarcode_btn.UseVisualStyleBackColor = false;
+            this.ovenbarcode_btn.Click += new System.EventHandler(this.ovenbarcode_btn_Click);
+            // 
+            // production_controller_btn
+            // 
+            this.production_controller_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.production_controller_btn.ControlId = "cpmb013";
+            this.production_controller_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.production_controller_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.production_controller_btn.Location = new System.Drawing.Point(27, 126);
+            this.production_controller_btn.Name = "production_controller_btn";
+            this.production_controller_btn.Size = new System.Drawing.Size(210, 64);
+            this.production_controller_btn.TabIndex = 1;
+            this.production_controller_btn.Text = "Production Controller";
+            this.production_controller_btn.UseVisualStyleBackColor = false;
+            this.production_controller_btn.Click += new System.EventHandler(this.production_controller_btn_Click);
+            // 
+            // Doc_Main_btn
+            // 
+            this.Doc_Main_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.Doc_Main_btn.ControlId = "cpmb007";
+            this.Doc_Main_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.Doc_Main_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Doc_Main_btn.Location = new System.Drawing.Point(27, 26);
+            this.Doc_Main_btn.Name = "Doc_Main_btn";
+            this.Doc_Main_btn.Size = new System.Drawing.Size(210, 64);
+            this.Doc_Main_btn.TabIndex = 0;
+            this.Doc_Main_btn.Text = "Document Management";
+            this.Doc_Main_btn.UseVisualStyleBackColor = false;
+            this.Doc_Main_btn.Click += new System.EventHandler(this.Doc_Main_btn_Click);
+            // 
+            // MachineWorkingStatus_btn
+            // 
+            this.MachineWorkingStatus_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.MachineWorkingStatus_btn.ControlId = "cpmb009";
+            this.MachineWorkingStatus_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.MachineWorkingStatus_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.MachineWorkingStatus_btn.Location = new System.Drawing.Point(287, 26);
+            this.MachineWorkingStatus_btn.Name = "MachineWorkingStatus_btn";
+            this.MachineWorkingStatus_btn.Size = new System.Drawing.Size(210, 64);
+            this.MachineWorkingStatus_btn.TabIndex = 0;
+            this.MachineWorkingStatus_btn.Text = "Machine Working Status";
+            this.MachineWorkingStatus_btn.UseVisualStyleBackColor = false;
+            this.MachineWorkingStatus_btn.Click += new System.EventHandler(this.MachineWorkingStatus_btn_Click);
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.InvertoryCheck_btn);
+            this.tabPage3.Controls.Add(this.WarehouseManagement_New_frm);
+            this.tabPage3.Controls.Add(this.account_equipments_btn);
+            this.tabPage3.Location = new System.Drawing.Point(4, 24);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(679, 490);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Account - Equipments";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // InvertoryCheck_btn
+            // 
+            this.InvertoryCheck_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.InvertoryCheck_btn.ControlId = "cpmb016";
+            this.InvertoryCheck_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.InvertoryCheck_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.InvertoryCheck_btn.Location = new System.Drawing.Point(38, 113);
+            this.InvertoryCheck_btn.Name = "InvertoryCheck_btn";
+            this.InvertoryCheck_btn.Size = new System.Drawing.Size(210, 64);
+            this.InvertoryCheck_btn.TabIndex = 49;
+            this.InvertoryCheck_btn.Text = "Inventory Check";
+            this.InvertoryCheck_btn.UseVisualStyleBackColor = false;
+            this.InvertoryCheck_btn.Click += new System.EventHandler(this.InvertoryCheck_btn_Click);
+            // 
+            // WarehouseManagement_New_frm
+            // 
+            this.WarehouseManagement_New_frm.BackColor = System.Drawing.SystemColors.Control;
+            this.WarehouseManagement_New_frm.ControlId = "cpmb010";
+            this.WarehouseManagement_New_frm.Font = new System.Drawing.Font("Arial", 9F);
+            this.WarehouseManagement_New_frm.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.WarehouseManagement_New_frm.Location = new System.Drawing.Point(38, 26);
+            this.WarehouseManagement_New_frm.Name = "WarehouseManagement_New_frm";
+            this.WarehouseManagement_New_frm.Size = new System.Drawing.Size(210, 64);
+            this.WarehouseManagement_New_frm.TabIndex = 0;
+            this.WarehouseManagement_New_frm.Text = "Equipment Management";
+            this.WarehouseManagement_New_frm.UseVisualStyleBackColor = false;
+            this.WarehouseManagement_New_frm.Click += new System.EventHandler(this.WarehouseManagement_New_frm_Click);
+            // 
+            // account_equipments_btn
+            // 
+            this.account_equipments_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.account_equipments_btn.ControlId = "cpmb011";
+            this.account_equipments_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.account_equipments_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.account_equipments_btn.Location = new System.Drawing.Point(287, 26);
+            this.account_equipments_btn.Name = "account_equipments_btn";
+            this.account_equipments_btn.Size = new System.Drawing.Size(210, 64);
+            this.account_equipments_btn.TabIndex = 48;
+            this.account_equipments_btn.Text = "Account Equipments";
+            this.account_equipments_btn.UseVisualStyleBackColor = false;
+            this.account_equipments_btn.Click += new System.EventHandler(this.account_equipments_btn_Click);
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.groupBox2);
+            this.tabPage4.Controls.Add(this.groupBox1);
+            this.tabPage4.Controls.Add(this.GA1Chart_btn);
+            this.tabPage4.Controls.Add(this.btn_shippingcheck);
+            this.tabPage4.Location = new System.Drawing.Point(4, 24);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(679, 490);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "GA1 Model";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btn_production_GA1);
+            this.groupBox2.Controls.Add(this.btn_export);
+            this.groupBox2.Location = new System.Drawing.Point(341, 76);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(321, 82);
+            this.groupBox2.TabIndex = 7;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Control";
+            this.groupBox2.Visible = false;
+            // 
+            // btn_production_GA1
+            // 
+            this.btn_production_GA1.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_production_GA1.ControlId = null;
+            this.btn_production_GA1.Font = new System.Drawing.Font("Arial", 9F);
+            this.btn_production_GA1.Location = new System.Drawing.Point(6, 20);
+            this.btn_production_GA1.Name = "btn_production_GA1";
+            this.btn_production_GA1.Size = new System.Drawing.Size(92, 52);
+            this.btn_production_GA1.TabIndex = 5;
+            this.btn_production_GA1.Text = "Production Controller";
+            this.btn_production_GA1.UseVisualStyleBackColor = false;
+            this.btn_production_GA1.Click += new System.EventHandler(this.btn_production_GA1_Click);
+            // 
+            // btn_export
+            // 
+            this.btn_export.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_export.ControlId = "cpmb022";
+            this.btn_export.Font = new System.Drawing.Font("Arial", 9F);
+            this.btn_export.Location = new System.Drawing.Point(224, 20);
+            this.btn_export.Name = "btn_export";
+            this.btn_export.Size = new System.Drawing.Size(92, 52);
+            this.btn_export.TabIndex = 4;
+            this.btn_export.Text = "Export";
+            this.btn_export.UseVisualStyleBackColor = false;
+            this.btn_export.Click += new System.EventHandler(this.btn_export_Click);
+            // 
+            // GA1Chart_btn
+            // 
+            this.GA1Chart_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.GA1Chart_btn.ControlId = null;
+            this.GA1Chart_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.GA1Chart_btn.Location = new System.Drawing.Point(347, 18);
+            this.GA1Chart_btn.Name = "GA1Chart_btn";
+            this.GA1Chart_btn.Size = new System.Drawing.Size(201, 52);
+            this.GA1Chart_btn.TabIndex = 5;
+            this.GA1Chart_btn.Text = "GA1 Controll";
+            this.GA1Chart_btn.UseVisualStyleBackColor = false;
+            this.GA1Chart_btn.Click += new System.EventHandler(this.buttonCommon1_Click_1);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.btn_thurstcheck);
+            this.groupBox1.Controls.Add(this.btn_noisecheck);
+            this.groupBox1.Controls.Add(this.btn_oqccheck);
+            this.groupBox1.Location = new System.Drawing.Point(12, 76);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(323, 84);
+            this.groupBox1.TabIndex = 6;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Check";
+            this.groupBox1.Visible = false;
+            // 
+            // btn_thurstcheck
+            // 
+            this.btn_thurstcheck.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_thurstcheck.ControlId = "cpmb018";
+            this.btn_thurstcheck.Font = new System.Drawing.Font("Arial", 9F);
+            this.btn_thurstcheck.Location = new System.Drawing.Point(8, 23);
+            this.btn_thurstcheck.Name = "btn_thurstcheck";
+            this.btn_thurstcheck.Size = new System.Drawing.Size(92, 52);
+            this.btn_thurstcheck.TabIndex = 0;
+            this.btn_thurstcheck.Text = "Thurst Check";
+            this.btn_thurstcheck.UseVisualStyleBackColor = false;
+            this.btn_thurstcheck.Click += new System.EventHandler(this.btn_thurstcheck_Click);
+            // 
+            // btn_noisecheck
+            // 
+            this.btn_noisecheck.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_noisecheck.ControlId = "cpmb019";
+            this.btn_noisecheck.Font = new System.Drawing.Font("Arial", 9F);
+            this.btn_noisecheck.Location = new System.Drawing.Point(117, 23);
+            this.btn_noisecheck.Name = "btn_noisecheck";
+            this.btn_noisecheck.Size = new System.Drawing.Size(92, 52);
+            this.btn_noisecheck.TabIndex = 1;
+            this.btn_noisecheck.Text = "Noise Check";
+            this.btn_noisecheck.UseVisualStyleBackColor = false;
+            this.btn_noisecheck.Click += new System.EventHandler(this.btn_noisecheck_Click);
+            // 
+            // btn_oqccheck
+            // 
+            this.btn_oqccheck.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_oqccheck.ControlId = "cpmb020";
+            this.btn_oqccheck.Font = new System.Drawing.Font("Arial", 9F);
+            this.btn_oqccheck.Location = new System.Drawing.Point(226, 23);
+            this.btn_oqccheck.Name = "btn_oqccheck";
+            this.btn_oqccheck.Size = new System.Drawing.Size(92, 52);
+            this.btn_oqccheck.TabIndex = 2;
+            this.btn_oqccheck.Text = "OQC Check";
+            this.btn_oqccheck.UseVisualStyleBackColor = false;
+            this.btn_oqccheck.Click += new System.EventHandler(this.btn_oqccheck_Click);
+            // 
+            // btn_shippingcheck
+            // 
+            this.btn_shippingcheck.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_shippingcheck.ControlId = "cpmb021";
+            this.btn_shippingcheck.Font = new System.Drawing.Font("Arial", 9F);
+            this.btn_shippingcheck.Location = new System.Drawing.Point(20, 18);
+            this.btn_shippingcheck.Name = "btn_shippingcheck";
+            this.btn_shippingcheck.Size = new System.Drawing.Size(201, 52);
+            this.btn_shippingcheck.TabIndex = 3;
+            this.btn_shippingcheck.Text = "Shipping Check";
+            this.btn_shippingcheck.UseVisualStyleBackColor = false;
+            this.btn_shippingcheck.Click += new System.EventHandler(this.btn_shippingcheck_Click);
             // 
             // labelCommon2
             // 
@@ -1424,19 +1426,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(867, 679);
             this.ControlId = "frm001";
-            this.Controls.Add(this.SystemMaster_gpb);
             this.Controls.Add(this.Menu_gpb);
             this.Controls.Add(this.NCVP_Function_gr);
             this.Controls.Add(this.NcvpMaster_gpb);
+            this.Controls.Add(this.SystemMaster_gpb);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "FormMain";
             this.Text = "NCVP Master Maintance";
             this.TitleText = "NCVP Master Maintance";
             this.Load += new System.EventHandler(this.MainForm_Load);
+            this.Controls.SetChildIndex(this.SystemMaster_gpb, 0);
             this.Controls.SetChildIndex(this.NcvpMaster_gpb, 0);
             this.Controls.SetChildIndex(this.NCVP_Function_gr, 0);
             this.Controls.SetChildIndex(this.Menu_gpb, 0);
-            this.Controls.SetChildIndex(this.SystemMaster_gpb, 0);
             this.NcvpMaster_gpb.ResumeLayout(false);
             this.Master_tab.ResumeLayout(false);
             this.Master.ResumeLayout(false);
@@ -1453,12 +1456,12 @@
             this.Oven_Downtime.ResumeLayout(false);
             this.SystemMaster_gpb.ResumeLayout(false);
             this.tabControlCommon1.ResumeLayout(false);
-            this.tabPage4.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             this.NCVP_Function_gr.ResumeLayout(false);
             this.groupBoxCommon7.ResumeLayout(false);
             this.groupBoxCommon1.ResumeLayout(false);

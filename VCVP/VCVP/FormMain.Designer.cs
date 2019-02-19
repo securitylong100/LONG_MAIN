@@ -103,13 +103,12 @@
             this.account_equipments_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btn_production_GA1 = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_export = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.GA1Chart_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btn_thurstcheck = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_noisecheck = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_oqccheck = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.GA1Chart_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_shippingcheck = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.labelCommon2 = new Com.Nidec.Mes.Framework.LabelCommon();
             this.NCVP_Function_gr = new Com.Nidec.Mes.Framework.GroupBoxCommon();
@@ -1170,6 +1169,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.btn_thurstcheck);
             this.tabPage4.Controls.Add(this.groupBox2);
             this.tabPage4.Controls.Add(this.groupBox1);
             this.tabPage4.Controls.Add(this.GA1Chart_btn);
@@ -1183,7 +1183,6 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.btn_production_GA1);
             this.groupBox2.Controls.Add(this.btn_export);
             this.groupBox2.Location = new System.Drawing.Point(341, 76);
             this.groupBox2.Name = "groupBox2";
@@ -1192,19 +1191,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Control";
             this.groupBox2.Visible = false;
-            // 
-            // btn_production_GA1
-            // 
-            this.btn_production_GA1.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_production_GA1.ControlId = null;
-            this.btn_production_GA1.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_production_GA1.Location = new System.Drawing.Point(6, 20);
-            this.btn_production_GA1.Name = "btn_production_GA1";
-            this.btn_production_GA1.Size = new System.Drawing.Size(92, 52);
-            this.btn_production_GA1.TabIndex = 5;
-            this.btn_production_GA1.Text = "Production Controller";
-            this.btn_production_GA1.UseVisualStyleBackColor = false;
-            this.btn_production_GA1.Click += new System.EventHandler(this.btn_production_GA1_Click);
             // 
             // btn_export
             // 
@@ -1219,22 +1205,8 @@
             this.btn_export.UseVisualStyleBackColor = false;
             this.btn_export.Click += new System.EventHandler(this.btn_export_Click);
             // 
-            // GA1Chart_btn
-            // 
-            this.GA1Chart_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.GA1Chart_btn.ControlId = null;
-            this.GA1Chart_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.GA1Chart_btn.Location = new System.Drawing.Point(347, 18);
-            this.GA1Chart_btn.Name = "GA1Chart_btn";
-            this.GA1Chart_btn.Size = new System.Drawing.Size(201, 52);
-            this.GA1Chart_btn.TabIndex = 5;
-            this.GA1Chart_btn.Text = "GA1 Controll";
-            this.GA1Chart_btn.UseVisualStyleBackColor = false;
-            this.GA1Chart_btn.Click += new System.EventHandler(this.buttonCommon1_Click_1);
-            // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btn_thurstcheck);
             this.groupBox1.Controls.Add(this.btn_noisecheck);
             this.groupBox1.Controls.Add(this.btn_oqccheck);
             this.groupBox1.Location = new System.Drawing.Point(12, 76);
@@ -1250,7 +1222,7 @@
             this.btn_thurstcheck.BackColor = System.Drawing.SystemColors.Control;
             this.btn_thurstcheck.ControlId = "cpmb018";
             this.btn_thurstcheck.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_thurstcheck.Location = new System.Drawing.Point(8, 23);
+            this.btn_thurstcheck.Location = new System.Drawing.Point(238, 18);
             this.btn_thurstcheck.Name = "btn_thurstcheck";
             this.btn_thurstcheck.Size = new System.Drawing.Size(92, 52);
             this.btn_thurstcheck.TabIndex = 0;
@@ -1283,6 +1255,19 @@
             this.btn_oqccheck.Text = "OQC Check";
             this.btn_oqccheck.UseVisualStyleBackColor = false;
             this.btn_oqccheck.Click += new System.EventHandler(this.btn_oqccheck_Click);
+            // 
+            // GA1Chart_btn
+            // 
+            this.GA1Chart_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.GA1Chart_btn.ControlId = null;
+            this.GA1Chart_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.GA1Chart_btn.Location = new System.Drawing.Point(347, 18);
+            this.GA1Chart_btn.Name = "GA1Chart_btn";
+            this.GA1Chart_btn.Size = new System.Drawing.Size(201, 52);
+            this.GA1Chart_btn.TabIndex = 5;
+            this.GA1Chart_btn.Text = "GA1 Controll";
+            this.GA1Chart_btn.UseVisualStyleBackColor = false;
+            this.GA1Chart_btn.Click += new System.EventHandler(this.buttonCommon1_Click_1);
             // 
             // btn_shippingcheck
             // 
@@ -1547,7 +1532,6 @@
         private Framework.ButtonCommon account_equipments_btn;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.GroupBox groupBox2;
-        private Framework.ButtonCommon btn_production_GA1;
         private Framework.ButtonCommon btn_export;
         private Framework.ButtonCommon GA1Chart_btn;
         private System.Windows.Forms.GroupBox groupBox1;

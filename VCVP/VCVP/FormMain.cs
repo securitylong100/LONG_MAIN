@@ -452,12 +452,6 @@ namespace Com.Nidec.Mes.VCVP
             showfr.ShowDialog();
         }
 
-        private void btn_production_GA1_Click(object sender, EventArgs e)
-        {
-            TestForm tesfr = new TestForm();
-            tesfr.ShowDialog();
-        }
-
         private void buttonCommon1_Click_1(object sender, EventArgs e)
         {
             new ProducionControllerGA1Form().ShowDialog();

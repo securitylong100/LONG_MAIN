@@ -436,7 +436,7 @@ namespace Com.Nidec.Mes.VCVP
 
         private void btn_oqccheck_Click(object sender, EventArgs e)
         {
-            OQCCheckForm oqcfr = new OQCCheckForm();
+            IPQCCheckForm oqcfr = new IPQCCheckForm();
             oqcfr.ShowDialog();
         }
 

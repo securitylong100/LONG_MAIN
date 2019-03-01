@@ -131,7 +131,6 @@ D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\bin\Debug\zh-CHS\GlobalMasterMaintenance.resourc
 D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\bin\Debug\zh-Hans\GlobalMasterMaintenance.resources.dll
 D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\bin\Debug\vi\MachineMaintenance.resources.dll
 D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\bin\Debug\vi-VN\MachineMaintenance.resources.dll
-D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\obj\Debug\VCVP.csprojResolveAssemblyReference.cache
 D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\obj\Debug\Com.Nidec.Mes.VCVP.FormMain.resources
 D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\obj\Debug\Com.Nidec.Mes.VCVP.Properties.Resources.resources
 D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\obj\Debug\VCVP.csproj.GenerateResource.Cache
@@ -175,3 +174,4 @@ D:\NIDEC\NCVP_MAIN\VCVP\VCVP\obj\Debug\VCVP.csproj.GenerateResource.Cache
 D:\NIDEC\NCVP_MAIN\VCVP\VCVP\obj\Debug\NCVP Management System.TrustInfo.xml
 D:\NIDEC\NCVP_MAIN\VCVP\VCVP\obj\Debug\NCVP Management System.exe.manifest
 D:\NIDEC\NCVP_MAIN\VCVP\VCVP\obj\Debug\NCVP Management System.application
+D:\NCVP_GIT\LONG_MAIN\VCVP\VCVP\obj\Debug\VCVP.csprojResolveAssemblyReference.cache

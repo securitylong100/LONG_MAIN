@@ -456,5 +456,13 @@ namespace Com.Nidec.Mes.VCVP
         {
             new ProducionControllerGA1Form().ShowDialog();
         }
+
+        private void btn_noisecheck2_Click(object sender, EventArgs e)
+        {
+            NoiseCheckForm noisefr = new NoiseCheckForm();
+            this.Hide();
+            noisefr.ShowDialog();
+            this.Show();
+        }
     }
 }

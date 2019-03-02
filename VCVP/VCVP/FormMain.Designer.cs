@@ -102,10 +102,8 @@
             this.WarehouseManagement_New_frm = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.account_equipments_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btn_export = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.GA1Chart_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btn_thurstcheck = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_noisecheck = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_oqccheck = new Com.Nidec.Mes.Framework.ButtonCommon();
@@ -139,8 +137,6 @@
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.NCVP_Function_gr.SuspendLayout();
             this.groupBoxCommon7.SuspendLayout();
             this.groupBoxCommon1.SuspendLayout();
@@ -989,6 +985,7 @@
             // 
             this.DownTime_bt.BackColor = System.Drawing.SystemColors.Control;
             this.DownTime_bt.ControlId = "cpmb005";
+            this.DownTime_bt.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.DownTime_bt.Font = new System.Drawing.Font("Arial", 9F);
             this.DownTime_bt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.DownTime_bt.Location = new System.Drawing.Point(27, 26);
@@ -1003,6 +1000,7 @@
             // 
             this.jig_repair_btn.BackColor = System.Drawing.SystemColors.Control;
             this.jig_repair_btn.ControlId = "cpmb006";
+            this.jig_repair_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.jig_repair_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.jig_repair_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.jig_repair_btn.Location = new System.Drawing.Point(287, 26);
@@ -1017,6 +1015,7 @@
             // 
             this.DrawRegist_btn.BackColor = System.Drawing.SystemColors.Control;
             this.DrawRegist_btn.ControlId = "cpmb008";
+            this.DrawRegist_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.DrawRegist_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.DrawRegist_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.DrawRegist_btn.Location = new System.Drawing.Point(27, 126);
@@ -1046,6 +1045,7 @@
             // 
             this.ovenbarcode_ls12_btn.BackColor = System.Drawing.SystemColors.Control;
             this.ovenbarcode_ls12_btn.ControlId = "cpmb015";
+            this.ovenbarcode_ls12_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.ovenbarcode_ls12_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.ovenbarcode_ls12_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.ovenbarcode_ls12_btn.Location = new System.Drawing.Point(27, 226);
@@ -1060,6 +1060,7 @@
             // 
             this.ovenbarcode_btn.BackColor = System.Drawing.SystemColors.Control;
             this.ovenbarcode_btn.ControlId = "cpmb014";
+            this.ovenbarcode_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.ovenbarcode_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.ovenbarcode_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.ovenbarcode_btn.Location = new System.Drawing.Point(287, 126);
@@ -1074,6 +1075,7 @@
             // 
             this.production_controller_btn.BackColor = System.Drawing.SystemColors.Control;
             this.production_controller_btn.ControlId = "cpmb013";
+            this.production_controller_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.production_controller_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.production_controller_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.production_controller_btn.Location = new System.Drawing.Point(27, 126);
@@ -1088,6 +1090,7 @@
             // 
             this.Doc_Main_btn.BackColor = System.Drawing.SystemColors.Control;
             this.Doc_Main_btn.ControlId = "cpmb007";
+            this.Doc_Main_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.Doc_Main_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.Doc_Main_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Doc_Main_btn.Location = new System.Drawing.Point(27, 26);
@@ -1102,6 +1105,7 @@
             // 
             this.MachineWorkingStatus_btn.BackColor = System.Drawing.SystemColors.Control;
             this.MachineWorkingStatus_btn.ControlId = "cpmb009";
+            this.MachineWorkingStatus_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.MachineWorkingStatus_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.MachineWorkingStatus_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.MachineWorkingStatus_btn.Location = new System.Drawing.Point(287, 26);
@@ -1129,6 +1133,7 @@
             // 
             this.InvertoryCheck_btn.BackColor = System.Drawing.SystemColors.Control;
             this.InvertoryCheck_btn.ControlId = "cpmb016";
+            this.InvertoryCheck_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.InvertoryCheck_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.InvertoryCheck_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.InvertoryCheck_btn.Location = new System.Drawing.Point(38, 113);
@@ -1143,6 +1148,7 @@
             // 
             this.WarehouseManagement_New_frm.BackColor = System.Drawing.SystemColors.Control;
             this.WarehouseManagement_New_frm.ControlId = "cpmb010";
+            this.WarehouseManagement_New_frm.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.WarehouseManagement_New_frm.Font = new System.Drawing.Font("Arial", 9F);
             this.WarehouseManagement_New_frm.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.WarehouseManagement_New_frm.Location = new System.Drawing.Point(38, 26);
@@ -1157,6 +1163,7 @@
             // 
             this.account_equipments_btn.BackColor = System.Drawing.SystemColors.Control;
             this.account_equipments_btn.ControlId = "cpmb011";
+            this.account_equipments_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.account_equipments_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.account_equipments_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.account_equipments_btn.Location = new System.Drawing.Point(287, 26);
@@ -1169,8 +1176,12 @@
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.groupBox2);
-            this.tabPage4.Controls.Add(this.groupBox1);
+            this.tabPage4.Controls.Add(this.btn_export);
+            this.tabPage4.Controls.Add(this.btn_thurstcheck);
+            this.tabPage4.Controls.Add(this.GA1Chart_btn);
+            this.tabPage4.Controls.Add(this.btn_noisecheck);
+            this.tabPage4.Controls.Add(this.btn_oqccheck);
+            this.tabPage4.Controls.Add(this.btn_shippingcheck);
             this.tabPage4.Location = new System.Drawing.Point(4, 24);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(679, 490);
@@ -1178,23 +1189,13 @@
             this.tabPage4.Text = "GA1 Model";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.btn_export);
-            this.groupBox2.Controls.Add(this.GA1Chart_btn);
-            this.groupBox2.Location = new System.Drawing.Point(6, 96);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(216, 82);
-            this.groupBox2.TabIndex = 7;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Control";
-            // 
             // btn_export
             // 
             this.btn_export.BackColor = System.Drawing.SystemColors.Control;
             this.btn_export.ControlId = "cpmb022";
+            this.btn_export.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_export.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_export.Location = new System.Drawing.Point(224, 20);
+            this.btn_export.Location = new System.Drawing.Point(232, 77);
             this.btn_export.Name = "btn_export";
             this.btn_export.Size = new System.Drawing.Size(92, 52);
             this.btn_export.TabIndex = 4;
@@ -1206,9 +1207,10 @@
             // GA1Chart_btn
             // 
             this.GA1Chart_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.GA1Chart_btn.ControlId = null;
+            this.GA1Chart_btn.ControlId = "cpmb023";
+            this.GA1Chart_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.GA1Chart_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.GA1Chart_btn.Location = new System.Drawing.Point(7, 20);
+            this.GA1Chart_btn.Location = new System.Drawing.Point(14, 77);
             this.GA1Chart_btn.Name = "GA1Chart_btn";
             this.GA1Chart_btn.Size = new System.Drawing.Size(201, 52);
             this.GA1Chart_btn.TabIndex = 5;
@@ -1216,25 +1218,13 @@
             this.GA1Chart_btn.UseVisualStyleBackColor = false;
             this.GA1Chart_btn.Click += new System.EventHandler(this.buttonCommon1_Click_1);
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.btn_thurstcheck);
-            this.groupBox1.Controls.Add(this.btn_noisecheck);
-            this.groupBox1.Controls.Add(this.btn_oqccheck);
-            this.groupBox1.Controls.Add(this.btn_shippingcheck);
-            this.groupBox1.Location = new System.Drawing.Point(6, 6);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(548, 84);
-            this.groupBox1.TabIndex = 6;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Check";
-            // 
             // btn_thurstcheck
             // 
             this.btn_thurstcheck.BackColor = System.Drawing.SystemColors.Control;
             this.btn_thurstcheck.ControlId = "cpmb018";
+            this.btn_thurstcheck.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_thurstcheck.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_thurstcheck.Location = new System.Drawing.Point(7, 23);
+            this.btn_thurstcheck.Location = new System.Drawing.Point(13, 11);
             this.btn_thurstcheck.Name = "btn_thurstcheck";
             this.btn_thurstcheck.Size = new System.Drawing.Size(92, 52);
             this.btn_thurstcheck.TabIndex = 0;
@@ -1246,8 +1236,9 @@
             // 
             this.btn_noisecheck.BackColor = System.Drawing.SystemColors.Control;
             this.btn_noisecheck.ControlId = "cpmb019";
+            this.btn_noisecheck.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_noisecheck.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_noisecheck.Location = new System.Drawing.Point(117, 23);
+            this.btn_noisecheck.Location = new System.Drawing.Point(123, 11);
             this.btn_noisecheck.Name = "btn_noisecheck";
             this.btn_noisecheck.Size = new System.Drawing.Size(92, 52);
             this.btn_noisecheck.TabIndex = 1;
@@ -1259,8 +1250,9 @@
             // 
             this.btn_oqccheck.BackColor = System.Drawing.SystemColors.Control;
             this.btn_oqccheck.ControlId = "cpmb020";
+            this.btn_oqccheck.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_oqccheck.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_oqccheck.Location = new System.Drawing.Point(226, 23);
+            this.btn_oqccheck.Location = new System.Drawing.Point(232, 11);
             this.btn_oqccheck.Name = "btn_oqccheck";
             this.btn_oqccheck.Size = new System.Drawing.Size(92, 52);
             this.btn_oqccheck.TabIndex = 2;
@@ -1272,8 +1264,9 @@
             // 
             this.btn_shippingcheck.BackColor = System.Drawing.SystemColors.Control;
             this.btn_shippingcheck.ControlId = "cpmb021";
+            this.btn_shippingcheck.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_shippingcheck.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_shippingcheck.Location = new System.Drawing.Point(335, 23);
+            this.btn_shippingcheck.Location = new System.Drawing.Point(341, 11);
             this.btn_shippingcheck.Name = "btn_shippingcheck";
             this.btn_shippingcheck.Size = new System.Drawing.Size(201, 52);
             this.btn_shippingcheck.TabIndex = 3;
@@ -1313,6 +1306,7 @@
             // 
             this.ChangePass_btn.BackColor = System.Drawing.SystemColors.Control;
             this.ChangePass_btn.ControlId = "ffob012";
+            this.ChangePass_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.ChangePass_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.ChangePass_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.ChangePass_btn.Location = new System.Drawing.Point(6, 520);
@@ -1339,6 +1333,7 @@
             // 
             this.ncvp_btn.BackColor = System.Drawing.SystemColors.Control;
             this.ncvp_btn.ControlId = "cpmb003";
+            this.ncvp_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.ncvp_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.ncvp_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.ncvp_btn.Location = new System.Drawing.Point(6, 17);
@@ -1366,6 +1361,7 @@
             // 
             this.NcvpMaster_btn.BackColor = System.Drawing.SystemColors.Control;
             this.NcvpMaster_btn.ControlId = "cpmb002";
+            this.NcvpMaster_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.NcvpMaster_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.NcvpMaster_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.NcvpMaster_btn.Location = new System.Drawing.Point(6, 63);
@@ -1380,6 +1376,7 @@
             // 
             this.SystemMaster_btn.BackColor = System.Drawing.SystemColors.Control;
             this.SystemMaster_btn.ControlId = "cpmb001";
+            this.SystemMaster_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.SystemMaster_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.SystemMaster_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.SystemMaster_btn.Location = new System.Drawing.Point(6, 20);
@@ -1444,8 +1441,6 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
             this.NCVP_Function_gr.ResumeLayout(false);
             this.groupBoxCommon7.ResumeLayout(false);
             this.groupBoxCommon1.ResumeLayout(false);
@@ -1530,10 +1525,8 @@
         private Framework.ButtonCommon WarehouseManagement_New_frm;
         private Framework.ButtonCommon account_equipments_btn;
         private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.GroupBox groupBox2;
         private Framework.ButtonCommon btn_export;
         private Framework.ButtonCommon GA1Chart_btn;
-        private System.Windows.Forms.GroupBox groupBox1;
         private Framework.ButtonCommon btn_thurstcheck;
         private Framework.ButtonCommon btn_oqccheck;
         private Framework.ButtonCommon btn_shippingcheck;

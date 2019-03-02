@@ -430,8 +430,10 @@ namespace Com.Nidec.Mes.VCVP
 
         private void btn_noisecheck_Click(object sender, EventArgs e)
         {
-            NoiseCheckForm noisefr =new  NoiseCheckForm();
+            NoiseCheckForm noisefr = new NoiseCheckForm();
+            this.Hide();
             noisefr.ShowDialog();
+            this.Show();
         }
 
         private void btn_oqccheck_Click(object sender, EventArgs e)
@@ -459,10 +461,7 @@ namespace Com.Nidec.Mes.VCVP
 
         private void btn_noisecheck2_Click(object sender, EventArgs e)
         {
-            NoiseCheckForm noisefr = new NoiseCheckForm();
-            this.Hide();
-            noisefr.ShowDialog();
-            this.Show();
+            
         }
     }
 }

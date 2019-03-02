@@ -989,6 +989,7 @@
             // 
             this.DownTime_bt.BackColor = System.Drawing.SystemColors.Control;
             this.DownTime_bt.ControlId = "cpmb005";
+            this.DownTime_bt.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.DownTime_bt.Font = new System.Drawing.Font("Arial", 9F);
             this.DownTime_bt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.DownTime_bt.Location = new System.Drawing.Point(27, 26);
@@ -1003,6 +1004,7 @@
             // 
             this.jig_repair_btn.BackColor = System.Drawing.SystemColors.Control;
             this.jig_repair_btn.ControlId = "cpmb006";
+            this.jig_repair_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.jig_repair_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.jig_repair_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.jig_repair_btn.Location = new System.Drawing.Point(287, 26);
@@ -1017,6 +1019,7 @@
             // 
             this.DrawRegist_btn.BackColor = System.Drawing.SystemColors.Control;
             this.DrawRegist_btn.ControlId = "cpmb008";
+            this.DrawRegist_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.DrawRegist_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.DrawRegist_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.DrawRegist_btn.Location = new System.Drawing.Point(27, 126);
@@ -1046,6 +1049,7 @@
             // 
             this.ovenbarcode_ls12_btn.BackColor = System.Drawing.SystemColors.Control;
             this.ovenbarcode_ls12_btn.ControlId = "cpmb015";
+            this.ovenbarcode_ls12_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.ovenbarcode_ls12_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.ovenbarcode_ls12_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.ovenbarcode_ls12_btn.Location = new System.Drawing.Point(27, 226);
@@ -1060,6 +1064,7 @@
             // 
             this.ovenbarcode_btn.BackColor = System.Drawing.SystemColors.Control;
             this.ovenbarcode_btn.ControlId = "cpmb014";
+            this.ovenbarcode_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.ovenbarcode_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.ovenbarcode_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.ovenbarcode_btn.Location = new System.Drawing.Point(287, 126);
@@ -1074,6 +1079,7 @@
             // 
             this.production_controller_btn.BackColor = System.Drawing.SystemColors.Control;
             this.production_controller_btn.ControlId = "cpmb013";
+            this.production_controller_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.production_controller_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.production_controller_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.production_controller_btn.Location = new System.Drawing.Point(27, 126);
@@ -1088,6 +1094,7 @@
             // 
             this.Doc_Main_btn.BackColor = System.Drawing.SystemColors.Control;
             this.Doc_Main_btn.ControlId = "cpmb007";
+            this.Doc_Main_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.Doc_Main_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.Doc_Main_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Doc_Main_btn.Location = new System.Drawing.Point(27, 26);
@@ -1102,6 +1109,7 @@
             // 
             this.MachineWorkingStatus_btn.BackColor = System.Drawing.SystemColors.Control;
             this.MachineWorkingStatus_btn.ControlId = "cpmb009";
+            this.MachineWorkingStatus_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.MachineWorkingStatus_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.MachineWorkingStatus_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.MachineWorkingStatus_btn.Location = new System.Drawing.Point(287, 26);
@@ -1129,6 +1137,7 @@
             // 
             this.InvertoryCheck_btn.BackColor = System.Drawing.SystemColors.Control;
             this.InvertoryCheck_btn.ControlId = "cpmb016";
+            this.InvertoryCheck_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.InvertoryCheck_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.InvertoryCheck_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.InvertoryCheck_btn.Location = new System.Drawing.Point(38, 113);
@@ -1143,6 +1152,7 @@
             // 
             this.WarehouseManagement_New_frm.BackColor = System.Drawing.SystemColors.Control;
             this.WarehouseManagement_New_frm.ControlId = "cpmb010";
+            this.WarehouseManagement_New_frm.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.WarehouseManagement_New_frm.Font = new System.Drawing.Font("Arial", 9F);
             this.WarehouseManagement_New_frm.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.WarehouseManagement_New_frm.Location = new System.Drawing.Point(38, 26);
@@ -1157,6 +1167,7 @@
             // 
             this.account_equipments_btn.BackColor = System.Drawing.SystemColors.Control;
             this.account_equipments_btn.ControlId = "cpmb011";
+            this.account_equipments_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.account_equipments_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.account_equipments_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.account_equipments_btn.Location = new System.Drawing.Point(287, 26);
@@ -1184,7 +1195,7 @@
             this.groupBox2.Controls.Add(this.GA1Chart_btn);
             this.groupBox2.Location = new System.Drawing.Point(6, 96);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(216, 82);
+            this.groupBox2.Size = new System.Drawing.Size(214, 82);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Control";
@@ -1193,6 +1204,7 @@
             // 
             this.btn_export.BackColor = System.Drawing.SystemColors.Control;
             this.btn_export.ControlId = "cpmb022";
+            this.btn_export.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_export.Font = new System.Drawing.Font("Arial", 9F);
             this.btn_export.Location = new System.Drawing.Point(224, 20);
             this.btn_export.Name = "btn_export";
@@ -1206,7 +1218,8 @@
             // GA1Chart_btn
             // 
             this.GA1Chart_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.GA1Chart_btn.ControlId = null;
+            this.GA1Chart_btn.ControlId = "cpmb023";
+            this.GA1Chart_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.GA1Chart_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.GA1Chart_btn.Location = new System.Drawing.Point(7, 20);
             this.GA1Chart_btn.Name = "GA1Chart_btn";
@@ -1233,6 +1246,7 @@
             // 
             this.btn_thurstcheck.BackColor = System.Drawing.SystemColors.Control;
             this.btn_thurstcheck.ControlId = "cpmb018";
+            this.btn_thurstcheck.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_thurstcheck.Font = new System.Drawing.Font("Arial", 9F);
             this.btn_thurstcheck.Location = new System.Drawing.Point(7, 23);
             this.btn_thurstcheck.Name = "btn_thurstcheck";
@@ -1259,6 +1273,7 @@
             // 
             this.btn_oqccheck.BackColor = System.Drawing.SystemColors.Control;
             this.btn_oqccheck.ControlId = "cpmb020";
+            this.btn_oqccheck.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_oqccheck.Font = new System.Drawing.Font("Arial", 9F);
             this.btn_oqccheck.Location = new System.Drawing.Point(226, 23);
             this.btn_oqccheck.Name = "btn_oqccheck";
@@ -1272,6 +1287,7 @@
             // 
             this.btn_shippingcheck.BackColor = System.Drawing.SystemColors.Control;
             this.btn_shippingcheck.ControlId = "cpmb021";
+            this.btn_shippingcheck.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_shippingcheck.Font = new System.Drawing.Font("Arial", 9F);
             this.btn_shippingcheck.Location = new System.Drawing.Point(335, 23);
             this.btn_shippingcheck.Name = "btn_shippingcheck";
@@ -1313,6 +1329,7 @@
             // 
             this.ChangePass_btn.BackColor = System.Drawing.SystemColors.Control;
             this.ChangePass_btn.ControlId = "ffob012";
+            this.ChangePass_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.ChangePass_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.ChangePass_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.ChangePass_btn.Location = new System.Drawing.Point(6, 520);
@@ -1339,6 +1356,7 @@
             // 
             this.ncvp_btn.BackColor = System.Drawing.SystemColors.Control;
             this.ncvp_btn.ControlId = "cpmb003";
+            this.ncvp_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.ncvp_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.ncvp_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.ncvp_btn.Location = new System.Drawing.Point(6, 17);
@@ -1366,6 +1384,7 @@
             // 
             this.NcvpMaster_btn.BackColor = System.Drawing.SystemColors.Control;
             this.NcvpMaster_btn.ControlId = "cpmb002";
+            this.NcvpMaster_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.NcvpMaster_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.NcvpMaster_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.NcvpMaster_btn.Location = new System.Drawing.Point(6, 63);
@@ -1380,6 +1399,7 @@
             // 
             this.SystemMaster_btn.BackColor = System.Drawing.SystemColors.Control;
             this.SystemMaster_btn.ControlId = "cpmb001";
+            this.SystemMaster_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.SystemMaster_btn.Font = new System.Drawing.Font("Arial", 9F);
             this.SystemMaster_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.SystemMaster_btn.Location = new System.Drawing.Point(6, 20);

@@ -5731,3 +5731,5 @@ System.TimeoutException: The operation has timed out.
 2019-03-02 11:39:28,805 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/03/02 11:39:28
 2019-03-02 11:39:42,968 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/02 11:39:42
 2019-03-02 11:40:12,849 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/03/02 11:40:12
+2019-03-02 16:53:29,473 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/02 16:53:29
+2019-03-02 17:18:47,474 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/03/02 17:18:47

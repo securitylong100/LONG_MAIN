@@ -211,14 +211,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MachineMaintenance.dll" size="5288448">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MachineMaintenance.dll" size="5298688">
       <assemblyIdentity name="MachineMaintenance" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>srcf+9icaoPLdcSR5OHjRFeTPIiHiROko3/eVPE9J3w=</dsig:DigestValue>
+        <dsig:DigestValue>EAQquMKDe6rifRNxgMUu7ZSAaAroU8oaFQyS3IV7hfA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -230,7 +230,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>g5hMVxXHF4ivYbMR+auz1LRCBEFQVnfu99W+3bi0Hv4=</dsig:DigestValue>
+        <dsig:DigestValue>cS1EkVJxiBAvDOQWY2Kc0z2bX8bwTwnt2I15LucDMfU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -242,7 +242,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>r3JA/uGq8RUw+qQZt8f7xXc70RNpgfKVO4gZMHQJ35Q=</dsig:DigestValue>
+        <dsig:DigestValue>p8JLcXAWNXllp0EzV3C2ZLzkG5mYPlVyeUwIYILGj3g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

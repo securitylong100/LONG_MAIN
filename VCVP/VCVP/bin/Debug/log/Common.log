@@ -5771,3 +5771,4 @@ System.InvalidOperationException: The parameter already belongs to a collection
 2019-03-09 13:38:55,421 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/03/09 13:38:55
 2019-03-09 13:39:01,152 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/09 13:39:01
 2019-03-09 13:39:12,239 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/03/09 13:39:12
+2019-03-12 09:02:37,264 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/12 09:02:37

@@ -5947,3 +5947,17 @@ Npgsql.PostgresException (0x80004005): 42601: syntax error at or near "'3/13/201
 2019-03-13 18:36:50,514 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 6:36:50 PM
 2019-03-13 18:38:12,666 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 18:38:12
 2019-03-13 18:40:02,163 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 6:40:02 PM
+2019-03-13 18:45:50,685 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 18:45:50
+2019-03-13 18:47:44,111 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 18:47:44
+2019-03-13 18:48:20,739 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 6:48:20 PM
+2019-03-13 18:49:46,447 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 18:49:46
+2019-03-13 18:51:12,884 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 18:51:12
+2019-03-13 18:52:22,685 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 6:52:22 PM
+2019-03-13 18:54:34,287 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 18:54:34
+2019-03-13 18:55:30,640 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 6:55:30 PM
+2019-03-13 18:56:38,278 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 18:56:38
+2019-03-13 18:56:50,411 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 6:56:50 PM
+2019-03-13 18:58:13,720 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 18:58:13
+2019-03-13 18:58:22,405 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 6:58:22 PM
+2019-03-13 18:59:00,138 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 18:59:00
+2019-03-13 18:59:08,018 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 6:59:08 PM

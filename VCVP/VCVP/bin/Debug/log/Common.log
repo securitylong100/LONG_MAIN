@@ -5772,3 +5772,167 @@ System.InvalidOperationException: The parameter already belongs to a collection
 2019-03-09 13:39:01,152 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/09 13:39:01
 2019-03-09 13:39:12,239 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/03/09 13:39:12
 2019-03-12 09:02:37,264 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/12 09:02:37
+2019-03-13 09:41:27,067 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 09:41:27
+2019-03-13 09:41:40,753 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42601: syntax error at or near "and".
+Npgsql.PostgresException (0x80004005): 42601: syntax error at or near "and"
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteScalarInternal()
+   at Npgsql.NpgsqlCommand.ExecuteScalar()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteScalar(DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 79
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.SearchProductionNGThurstDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\PQMConnectDao\ProductionControllerGA1Dao\SearchProductionNGThurstDao.cs:line 43
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.SearchProductionNGThurstCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\PQMConnectCbm\ProductionControllerGA1Cbm\SearchProductionNGThurstCbm.cs:line 23
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2019-03-13 09:41:43,733 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 9:41:43 AM
+2019-03-13 09:42:07,143 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 09:42:07
+2019-03-13 09:43:13,374 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 09:43:13
+2019-03-13 09:44:15,660 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 9:44:15 AM
+2019-03-13 09:55:09,843 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 09:55:09
+2019-03-13 09:55:23,476 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 9:55:23 AM
+2019-03-13 10:36:42,838 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 10:36:42
+2019-03-13 10:39:47,402 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 10:39:47
+2019-03-13 10:41:25,434 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 10:41:25 AM
+2019-03-13 12:46:31,826 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 12:46:31
+2019-03-13 12:46:57,965 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]The parameter already belongs to a collection.
+System.InvalidOperationException: The parameter already belongs to a collection
+   at Npgsql.NpgsqlParameterCollection.Add(NpgsqlParameter value)
+   at Npgsql.NpgsqlParameterCollection.Add(Object value)
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.SetCommandParameter(IDbCommand command, DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 47
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteNonQuery(DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 38
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.SearchBarcodeandUpdateNGThurstDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\GA1ModelDao\SearchBarcodeandUpdateNGThurstDao.cs:line 39
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.SearchBarcodeandUpdateNGThurstCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\GA1ModelCbm\SearchBarcodeandUpdateNGThurstCbm.cs:line 23
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2019-03-13 12:47:01,636 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 12:47:01 PM
+2019-03-13 12:48:15,997 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 12:48:15
+2019-03-13 12:49:29,490 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]The parameter already belongs to a collection.
+System.InvalidOperationException: The parameter already belongs to a collection
+   at Npgsql.NpgsqlParameterCollection.Add(NpgsqlParameter value)
+   at Npgsql.NpgsqlParameterCollection.Add(Object value)
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.SetCommandParameter(IDbCommand command, DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 47
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteNonQuery(DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 38
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.SearchBarcodeandUpdateNGThurstDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\GA1ModelDao\SearchBarcodeandUpdateNGThurstDao.cs:line 39
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.SearchBarcodeandUpdateNGThurstCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\GA1ModelCbm\SearchBarcodeandUpdateNGThurstCbm.cs:line 23
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2019-03-13 12:49:47,995 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 12:49:47 PM
+2019-03-13 12:50:02,050 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 12:50:02
+2019-03-13 12:50:08,592 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]The parameter already belongs to a collection.
+System.InvalidOperationException: The parameter already belongs to a collection
+   at Npgsql.NpgsqlParameterCollection.Add(NpgsqlParameter value)
+   at Npgsql.NpgsqlParameterCollection.Add(Object value)
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.SetCommandParameter(IDbCommand command, DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 47
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteNonQuery(DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 38
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.SearchBarcodeandUpdateNGThurstDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\GA1ModelDao\SearchBarcodeandUpdateNGThurstDao.cs:line 39
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.SearchBarcodeandUpdateNGThurstCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\GA1ModelCbm\SearchBarcodeandUpdateNGThurstCbm.cs:line 23
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2019-03-13 12:50:13,795 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 12:50:13 PM
+2019-03-13 12:51:27,765 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 12:51:27
+2019-03-13 12:51:37,331 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]The parameter already belongs to a collection.
+System.InvalidOperationException: The parameter already belongs to a collection
+   at Npgsql.NpgsqlParameterCollection.Add(NpgsqlParameter value)
+   at Npgsql.NpgsqlParameterCollection.Add(Object value)
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.SetCommandParameter(IDbCommand command, DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 47
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteNonQuery(DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 38
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.SearchBarcodeandUpdateNGThurstDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\GA1ModelDao\SearchBarcodeandUpdateNGThurstDao.cs:line 39
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.SearchBarcodeandUpdateNGThurstCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\GA1ModelCbm\SearchBarcodeandUpdateNGThurstCbm.cs:line 23
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2019-03-13 12:51:41,215 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 12:51:41 PM
+2019-03-13 12:54:22,306 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 12:54:22
+2019-03-13 13:01:33,960 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 1:01:33 PM
+2019-03-13 13:06:42,643 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 13:06:42
+2019-03-13 13:08:25,905 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 13:08:25
+2019-03-13 13:13:29,839 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 13:13:29
+2019-03-13 13:13:49,065 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 1:13:49 PM
+2019-03-13 13:14:51,928 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 13:14:51
+2019-03-13 13:16:32,478 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 1:16:32 PM
+2019-03-13 13:19:34,297 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 13:19:34
+2019-03-13 13:19:39,645 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 1:19:39 PM
+2019-03-13 13:29:08,422 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 13:29:08
+2019-03-13 13:29:28,872 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 1:29:28 PM
+2019-03-13 13:32:39,006 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 13:32:38
+2019-03-13 13:34:07,089 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 13:34:07
+2019-03-13 13:34:31,195 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 1:34:31 PM
+2019-03-13 13:35:26,749 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 13:35:26
+2019-03-13 13:35:45,990 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 1:35:45 PM
+2019-03-13 13:38:19,249 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 13:38:19
+2019-03-13 13:38:32,992 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 1:38:32 PM
+2019-03-13 13:39:48,957 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 13:39:48
+2019-03-13 13:40:31,634 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 1:40:31 PM
+2019-03-13 13:50:38,169 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 13:50:38
+2019-03-13 13:51:33,384 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 1:51:33 PM
+2019-03-13 14:15:19,502 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 14:15:19
+2019-03-13 14:15:59,278 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 2:15:59 PM
+2019-03-13 14:34:48,140 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 14:34:48
+2019-03-13 16:22:12,219 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 16:22:12
+2019-03-13 16:22:35,206 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42601: syntax error at or near "'3/13/2019 00:00:01'".
+Npgsql.PostgresException (0x80004005): 42601: syntax error at or near "'3/13/2019 00:00:01'"
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderInternal(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteDataSet(DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 95
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.SearchNGThurstChartDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\PQMConnectDao\ProductionControllerGA1Dao\SearchNGThurstChartDao.cs:line 86
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.SearchNGThurstChartCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\PQMConnectCbm\ProductionControllerGA1Cbm\SearchNGThurstChartCbm.cs:line 23
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2019-03-13 16:22:43,535 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 4:22:43 PM
+2019-03-13 16:24:19,300 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 16:24:19
+2019-03-13 16:26:48,206 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 16:26:48
+2019-03-13 16:27:12,781 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 4:27:12 PM
+2019-03-13 16:28:18,527 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 16:28:18
+2019-03-13 16:29:19,255 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 4:29:19 PM
+2019-03-13 16:30:37,873 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 16:30:37
+2019-03-13 16:33:05,171 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 16:33:05
+2019-03-13 16:34:25,914 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 4:34:25 PM
+2019-03-13 16:35:45,155 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 16:35:45
+2019-03-13 16:43:45,105 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 16:43:45
+2019-03-13 16:43:56,896 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 4:43:56 PM
+2019-03-13 16:44:12,566 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 16:44:12
+2019-03-13 16:44:24,340 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 4:44:24 PM
+2019-03-13 16:47:59,181 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 16:47:59
+2019-03-13 17:00:09,656 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 17:00:09
+2019-03-13 17:01:16,665 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 17:01:16
+2019-03-13 17:04:32,418 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 17:04:32
+2019-03-13 17:04:32,729 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00004]Please provide  valid input.
+2019-03-13 17:04:34,014 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/03/13 17:04:34
+2019-03-13 17:04:36,168 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 17:04:36
+2019-03-13 17:06:23,945 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 17:06:23
+2019-03-13 17:10:33,680 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 17:10:33
+2019-03-13 17:11:07,304 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 5:11:07 PM
+2019-03-13 17:11:34,477 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 17:11:34
+2019-03-13 17:11:57,752 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 5:11:57 PM
+2019-03-13 17:13:22,811 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 17:13:22
+2019-03-13 17:20:01,630 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 5:20:01 PM
+2019-03-13 17:20:36,195 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 17:20:36
+2019-03-13 17:22:34,132 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 5:22:34 PM
+2019-03-13 17:23:50,622 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 17:23:50
+2019-03-13 17:25:09,732 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 5:25:09 PM
+2019-03-13 17:32:39,073 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/03/13 17:32:39
+2019-03-13 17:32:51,202 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Role Master].[LoginUser : Lê Quang Ð?ng] Start.
+2019-03-13 17:32:54,351 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Role Master].[LoginUser : Lê Quang Ð?ng] End.
+2019-03-13 17:32:55,147 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Authority Control Master].[LoginUser : Lê Quang Ð?ng] Start.
+2019-03-13 17:33:06,181 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Add Authority Control].[LoginUser : Lê Quang Ð?ng] Start.
+2019-03-13 17:33:11,578 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Add Authority Control].[LoginUser : Lê Quang Ð?ng] End.
+2019-03-13 17:33:12,551 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Authority Control Master].[LoginUser : Lê Quang Ð?ng] End.
+2019-03-13 17:33:13,664 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 5:33:13 PM
+2019-03-13 17:33:30,495 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 3/13/2019 5:33:30 PM
+2019-03-13 17:33:38,806 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 5:33:38 PM
+2019-03-13 17:33:40,598 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 3/13/2019 5:33:40 PM
+2019-03-13 17:33:51,096 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : User Role].[LoginUser : Lê Quang Ð?ng] Start.
+2019-03-13 17:33:53,174 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : User Role].[LoginUser : Lê Quang Ð?ng] End.
+2019-03-13 17:33:54,223 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Role Authority Control].[LoginUser : Lê Quang Ð?ng] Start.
+2019-03-13 17:34:01,818 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.RoleAuthorityControlForm] [mmci00002]Record has been updated successfully.
+2019-03-13 17:34:03,461 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Role Authority Control].[LoginUser : Lê Quang Ð?ng] End.
+2019-03-13 17:34:05,057 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 5:34:05 PM
+2019-03-13 17:34:06,089 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 3/13/2019 5:34:06 PM
+2019-03-13 17:34:10,418 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 3/13/2019 5:34:10 PM

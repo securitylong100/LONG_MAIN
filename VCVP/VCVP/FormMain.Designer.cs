@@ -103,8 +103,8 @@
             this.account_equipments_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.btn_export = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.GA1Chart_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_thurstcheck = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.GA1Chart_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_noisecheck = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_oqccheck = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.btn_shippingcheck = new Com.Nidec.Mes.Framework.ButtonCommon();
@@ -117,6 +117,7 @@
             this.NcvpMaster_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.SystemMaster_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.Menu_gpb = new Com.Nidec.Mes.Framework.GroupBoxCommon();
+            this.btnNGThurst = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.NcvpMaster_gpb.SuspendLayout();
             this.Master_tab.SuspendLayout();
             this.Master.SuspendLayout();
@@ -1176,6 +1177,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.btnNGThurst);
             this.tabPage4.Controls.Add(this.btn_export);
             this.tabPage4.Controls.Add(this.btn_thurstcheck);
             this.tabPage4.Controls.Add(this.GA1Chart_btn);
@@ -1204,20 +1206,6 @@
             this.btn_export.Visible = false;
             this.btn_export.Click += new System.EventHandler(this.btn_export_Click);
             // 
-            // GA1Chart_btn
-            // 
-            this.GA1Chart_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.GA1Chart_btn.ControlId = "cpmb023";
-            this.GA1Chart_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.GA1Chart_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.GA1Chart_btn.Location = new System.Drawing.Point(14, 77);
-            this.GA1Chart_btn.Name = "GA1Chart_btn";
-            this.GA1Chart_btn.Size = new System.Drawing.Size(201, 52);
-            this.GA1Chart_btn.TabIndex = 5;
-            this.GA1Chart_btn.Text = "GA1 Controll";
-            this.GA1Chart_btn.UseVisualStyleBackColor = false;
-            this.GA1Chart_btn.Click += new System.EventHandler(this.buttonCommon1_Click_1);
-            // 
             // btn_thurstcheck
             // 
             this.btn_thurstcheck.BackColor = System.Drawing.SystemColors.Control;
@@ -1232,13 +1220,27 @@
             this.btn_thurstcheck.UseVisualStyleBackColor = false;
             this.btn_thurstcheck.Click += new System.EventHandler(this.btn_thurstcheck_Click);
             // 
+            // GA1Chart_btn
+            // 
+            this.GA1Chart_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.GA1Chart_btn.ControlId = "cpmb023";
+            this.GA1Chart_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.GA1Chart_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.GA1Chart_btn.Location = new System.Drawing.Point(14, 77);
+            this.GA1Chart_btn.Name = "GA1Chart_btn";
+            this.GA1Chart_btn.Size = new System.Drawing.Size(201, 52);
+            this.GA1Chart_btn.TabIndex = 5;
+            this.GA1Chart_btn.Text = "GA1 Controll";
+            this.GA1Chart_btn.UseVisualStyleBackColor = false;
+            this.GA1Chart_btn.Click += new System.EventHandler(this.buttonCommon1_Click_1);
+            // 
             // btn_noisecheck
             // 
             this.btn_noisecheck.BackColor = System.Drawing.SystemColors.Control;
             this.btn_noisecheck.ControlId = "cpmb019";
             this.btn_noisecheck.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_noisecheck.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_noisecheck.Location = new System.Drawing.Point(123, 11);
+            this.btn_noisecheck.Location = new System.Drawing.Point(225, 11);
             this.btn_noisecheck.Name = "btn_noisecheck";
             this.btn_noisecheck.Size = new System.Drawing.Size(92, 52);
             this.btn_noisecheck.TabIndex = 1;
@@ -1252,7 +1254,7 @@
             this.btn_oqccheck.ControlId = "cpmb020";
             this.btn_oqccheck.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_oqccheck.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_oqccheck.Location = new System.Drawing.Point(232, 11);
+            this.btn_oqccheck.Location = new System.Drawing.Point(334, 11);
             this.btn_oqccheck.Name = "btn_oqccheck";
             this.btn_oqccheck.Size = new System.Drawing.Size(92, 52);
             this.btn_oqccheck.TabIndex = 2;
@@ -1266,7 +1268,7 @@
             this.btn_shippingcheck.ControlId = "cpmb021";
             this.btn_shippingcheck.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_shippingcheck.Font = new System.Drawing.Font("Arial", 9F);
-            this.btn_shippingcheck.Location = new System.Drawing.Point(341, 11);
+            this.btn_shippingcheck.Location = new System.Drawing.Point(443, 11);
             this.btn_shippingcheck.Name = "btn_shippingcheck";
             this.btn_shippingcheck.Size = new System.Drawing.Size(201, 52);
             this.btn_shippingcheck.TabIndex = 3;
@@ -1400,6 +1402,20 @@
             this.Menu_gpb.TabIndex = 49;
             this.Menu_gpb.TabStop = false;
             this.Menu_gpb.Text = "Menu";
+            // 
+            // btnNGThurst
+            // 
+            this.btnNGThurst.BackColor = System.Drawing.SystemColors.Control;
+            this.btnNGThurst.ControlId = "cpmb024";
+            this.btnNGThurst.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnNGThurst.Font = new System.Drawing.Font("Arial", 9F);
+            this.btnNGThurst.Location = new System.Drawing.Point(118, 11);
+            this.btnNGThurst.Name = "btnNGThurst";
+            this.btnNGThurst.Size = new System.Drawing.Size(92, 52);
+            this.btnNGThurst.TabIndex = 6;
+            this.btnNGThurst.Text = "NG Thurst";
+            this.btnNGThurst.UseVisualStyleBackColor = true;
+            this.btnNGThurst.Click += new System.EventHandler(this.btnNGThurst_Click);
             // 
             // FormMain
             // 
@@ -1538,5 +1554,6 @@
         private Framework.ButtonCommon SystemMaster_btn;
         private Framework.GroupBoxCommon Menu_gpb;
         private Framework.ButtonCommon btn_noisecheck;
+        private Framework.ButtonCommon btnNGThurst;
     }
 }

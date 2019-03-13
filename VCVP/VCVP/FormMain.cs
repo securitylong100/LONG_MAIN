@@ -463,5 +463,10 @@ namespace Com.Nidec.Mes.VCVP
         {
             
         }
+
+        private void btnNGThurst_Click(object sender, EventArgs e)
+        {
+            new NGThurstForm().ShowDialog();
+        }
     }
 }
